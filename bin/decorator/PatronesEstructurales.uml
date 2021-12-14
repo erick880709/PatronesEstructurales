@@ -1,0 +1,636 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_eu1w4OUUEeu518O4MRMQJA" name="PatronesEstructurales">
+    <eAnnotations xmi:id="_e8Rv8OUUEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_e8Rv8eUUEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_e8Rv8uUUEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesEstructurales/src"/>
+        <details xmi:id="_fXjWsOUUEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesEstructurales/src/decorator/DecoradorVehiculo.java;4122445057/1;/PatronesEstructurales/src/decorator/Diesel.java;1838672742/1;/PatronesEstructurales/src/decorator/Gasolina.java;2921432135/1;/PatronesEstructurales/src/decorator/Inyeccion.java;2425624376/1;/PatronesEstructurales/src/decorator/InyeccionElectronica.java;3430816922/1;/PatronesEstructurales/src/decorator/Main.java;3728837368/1;/PatronesEstructurales/src/decorator/Sedan.java;1982050884/1;/PatronesEstructurales/src/decorator/Turbo.java;855492915/1;/PatronesEstructurales/src/decorator/Van.java;3181305886/1;/PatronesEstructurales/src/decorator/Vehiculo.java;3919554076/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_fL3rIOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_fL3rIeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_fL4SMOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_fL4SMeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_fL4SMuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_fL4SM-UUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_fL4SNOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_fL4SNeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_fL4SNuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_fL5gUOUUEeu518O4MRMQJA" name="decorator">
+      <packagedElement xmi:type="uml:Class" xmi:id="_fMU-IOUUEeu518O4MRMQJA" name="DecoradorVehiculo" isAbstract="true">
+        <ownedComment xmi:id="_fOkZ0OUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fOMmYOUUEeu518O4MRMQJA" general="_fNElAOUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_fMVlMOUUEeu518O4MRMQJA" name="getDescripcion" isAbstract="true">
+          <ownedParameter xmi:id="_fMWMQOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fMWzUOUUEeu518O4MRMQJA" name="Diesel">
+        <ownedComment xmi:id="_fOkZ0eUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fON0gOUUEeu518O4MRMQJA" general="_fMU-IOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_fOVwUOUUEeu518O4MRMQJA" name="vehiculo" visibility="private" type="_fNElAOUUEeu518O4MRMQJA" association="_fOpSUOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fObP4OUUEeu518O4MRMQJA" name="Diesel" specification="_fONNcOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fObP4eUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fObP4uUUEeu518O4MRMQJA" type="_fMWzUOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.vehiculo = vehiculo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOb28OUUEeu518O4MRMQJA" name="getDescripcion" specification="_fMYBcOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOb28eUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getDescripcion()+&quot; Diesel&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOb28uUUEeu518O4MRMQJA" name="getVelocidadMaxima" specification="_fMZPkeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOb28-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getVelocidadMaxima()+20;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOceAOUUEeu518O4MRMQJA" name="getConsumo" specification="_fMadsuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOceAeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getConsumo()-0.8;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fMYBcOUUEeu518O4MRMQJA" name="getDescripcion" method="_fOb28OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMYBceUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMZPkeUUEeu518O4MRMQJA" name="getVelocidadMaxima" method="_fOb28uUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMZPkuUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMadsuUUEeu518O4MRMQJA" name="getConsumo" method="_fOceAOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMbEwOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fONNcOUUEeu518O4MRMQJA" name="Diesel" method="_fObP4OUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_fONNcuUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_fONNc-UUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_fONNceUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fONNdOUUEeu518O4MRMQJA" type="_fMWzUOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fMc58OUUEeu518O4MRMQJA" name="Gasolina">
+        <ownedComment xmi:id="_fOkZ0uUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fOPCoOUUEeu518O4MRMQJA" general="_fMU-IOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_fOWXYOUUEeu518O4MRMQJA" name="vehiculo" visibility="private" type="_fNElAOUUEeu518O4MRMQJA" association="_fOqgceUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOdFEOUUEeu518O4MRMQJA" name="Gasolina" specification="_fOObkOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOdFEeUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOdFEuUUEeu518O4MRMQJA" type="_fMc58OUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.vehiculo = vehiculo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOdsIOUUEeu518O4MRMQJA" name="getDescripcion" specification="_fMeIEOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOdsIeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getDescripcion()+&quot; Gasolina&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOdsIuUUEeu518O4MRMQJA" name="getVelocidadMaxima" specification="_fMevI-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOdsI-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getVelocidadMaxima()+60;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOeTMOUUEeu518O4MRMQJA" name="getConsumo" specification="_fMf9QuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOeTMeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getConsumo()+1.2;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fMeIEOUUEeu518O4MRMQJA" name="getDescripcion" method="_fOdsIOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMeIEeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMevI-UUEeu518O4MRMQJA" name="getVelocidadMaxima" method="_fOdsIuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMfWMOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMf9QuUUEeu518O4MRMQJA" name="getConsumo" method="_fOeTMOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMf9Q-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fOObkOUUEeu518O4MRMQJA" name="Gasolina" method="_fOdFEOUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_fOObkuUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_fOObk-UUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_fOObkeUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOOblOUUEeu518O4MRMQJA" type="_fMc58OUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fMjAkOUUEeu518O4MRMQJA" name="Inyeccion">
+        <ownedComment xmi:id="_fOlA4OUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fOPps-UUEeu518O4MRMQJA" general="_fMU-IOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_fOXlgOUUEeu518O4MRMQJA" name="vehiculo" visibility="private" type="_fNElAOUUEeu518O4MRMQJA" association="_fOsVoOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOeTMuUUEeu518O4MRMQJA" name="Inyeccion" specification="_fOPCoeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOeTM-UUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOeTNOUUEeu518O4MRMQJA" type="_fMjAkOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.vehiculo = vehiculo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOeTNeUUEeu518O4MRMQJA" name="getDescripcion" specification="_fMkOsOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOeTNuUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getDescripcion()+&quot; Inyeccion&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOe6QOUUEeu518O4MRMQJA" name="getVelocidadMaxima" specification="_fMmD4uUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOe6QeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getVelocidadMaxima()+70;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOe6QuUUEeu518O4MRMQJA" name="getConsumo" specification="_fMmq8-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOe6Q-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getConsumo()-1.0;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fMkOsOUUEeu518O4MRMQJA" name="getDescripcion" method="_fOeTNeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMk1wOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMmD4uUUEeu518O4MRMQJA" name="getVelocidadMaxima" method="_fOe6QOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMmD4-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMmq8-UUEeu518O4MRMQJA" name="getConsumo" method="_fOe6QuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMn5EOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fOPCoeUUEeu518O4MRMQJA" name="Inyeccion" method="_fOeTMuUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_fOPpsOUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_fOPpseUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_fOPCouUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOPpsuUUEeu518O4MRMQJA" type="_fMjAkOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fMqVUOUUEeu518O4MRMQJA" name="InyeccionElectronica">
+        <ownedComment xmi:id="_fOlA4eUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fOQ30-UUEeu518O4MRMQJA" general="_fMU-IOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_fOYMkOUUEeu518O4MRMQJA" name="vehiculo" visibility="private" type="_fNElAOUUEeu518O4MRMQJA" association="_fOtjwOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOfhUOUUEeu518O4MRMQJA" name="InyeccionElectronica" specification="_fOQQwOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOfhUeUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOfhUuUUEeu518O4MRMQJA" type="_fMqVUOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.vehiculo = vehiculo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOfhU-UUEeu518O4MRMQJA" name="getDescripcion" specification="_fMrjcOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOfhVOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getDescripcion()+&quot; Inyeccion ElectrÃ³nica&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOfhVeUUEeu518O4MRMQJA" name="getVelocidadMaxima" specification="_fMtYoeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOfhVuUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getVelocidadMaxima()-10;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOgIYOUUEeu518O4MRMQJA" name="getConsumo" specification="_fMumwuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOgIYeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getConsumo()-0.4;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fMrjcOUUEeu518O4MRMQJA" name="getDescripcion" method="_fOfhU-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMrjceUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMtYoeUUEeu518O4MRMQJA" name="getVelocidadMaxima" method="_fOfhVeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMtYouUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fMumwuUUEeu518O4MRMQJA" name="getConsumo" method="_fOgIYOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMumw-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fOQQwOUUEeu518O4MRMQJA" name="InyeccionElectronica" method="_fOfhUOUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_fOQ30OUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_fOQ30eUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_fOQQweUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOQ30uUUEeu518O4MRMQJA" type="_fMqVUOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fMxDAOUUEeu518O4MRMQJA" name="Main">
+        <ownedComment xmi:id="_fOlA4uUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOgIYuUUEeu518O4MRMQJA" name="mostrarCaracteristicas" specification="_fORe4OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOgIY-UUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>System.out.println(vehiculo.getDescripcion());&#xD;
+     System.out.println(&quot;\tVelocidad mÃ¡xima:&quot;+vehiculo.getVelocidadMaxima()+&quot;km/h&quot;);&#xD;
+     System.out.println(&quot;\tConsumo promedio:&quot;+vehiculo.getConsumo()+&quot;litros/100km&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOgvcOUUEeu518O4MRMQJA" name="main" specification="_fMy4MOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOgvceUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fOgvcuUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>Vehiculo van = new Van();&#xD;
+     Vehiculo sedan = new Sedan();&#xD;
+     Main main = new Main();&#xD;
+     main.mostrarCaracteristicas(van);&#xD;
+     main.mostrarCaracteristicas(sedan);&#xD;
+     &#xD;
+     Vehiculo sedan2 = new Sedan();&#xD;
+     sedan2=new Gasolina(sedan2);&#xD;
+     main.mostrarCaracteristicas(sedan2);&#xD;
+     sedan2=new Turbo(sedan2);&#xD;
+     main.mostrarCaracteristicas(sedan2);&#xD;
+     sedan2=new Inyeccion(sedan2);&#xD;
+     main.mostrarCaracteristicas(sedan2);&#xD;
+     &#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fMy4MOUUEeu518O4MRMQJA" name="main" isStatic="true" method="_fOgvcOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fMy4MeUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_fMy4MuUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fORe4OUUEeu518O4MRMQJA" name="mostrarCaracteristicas" method="_fOgIYuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fORe4eUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fM0GUOUUEeu518O4MRMQJA" name="Sedan">
+        <ownedComment xmi:id="_fOlA4-UUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fOSF8OUUEeu518O4MRMQJA" general="_fNElAOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOgvc-UUEeu518O4MRMQJA" name="Sedan" specification="_fM0tYOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOgvdOUUEeu518O4MRMQJA" type="_fM0GUOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>descripcion=&quot;Sedan&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOh9kOUUEeu518O4MRMQJA" name="getVelocidadMaxima" specification="_fM0tZOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOh9keUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 220;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOh9kuUUEeu518O4MRMQJA" name="getConsumo" specification="_fM17guUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOh9k-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 6.2;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fM0tYOUUEeu518O4MRMQJA" name="Sedan" method="_fOgvc-UUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_fM0tYeUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_fM0tYuUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_fM0tY-UUEeu518O4MRMQJA" type="_fM0GUOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fM0tZOUUEeu518O4MRMQJA" name="getVelocidadMaxima" method="_fOh9kOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fM1UcOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fM17guUUEeu518O4MRMQJA" name="getConsumo" method="_fOh9kuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fM2ikOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fM4XwOUUEeu518O4MRMQJA" name="Turbo">
+        <ownedComment xmi:id="_fOlA5OUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fOTUEOUUEeu518O4MRMQJA" general="_fMU-IOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_fOYzoeUUEeu518O4MRMQJA" name="vehiculo" visibility="private" type="_fNElAOUUEeu518O4MRMQJA" association="_fOux4eUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOikoOUUEeu518O4MRMQJA" name="Turbo" specification="_fOStAOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOikoeUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOikouUUEeu518O4MRMQJA" type="_fM4XwOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.vehiculo = vehiculo;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOiko-UUEeu518O4MRMQJA" name="getDescripcion" specification="_fM5l4OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOikpOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getDescripcion()+&quot; Turbo&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOikpeUUEeu518O4MRMQJA" name="getVelocidadMaxima" specification="_fM7bEuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOikpuUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getVelocidadMaxima()+90;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOjLsOUUEeu518O4MRMQJA" name="getConsumo" specification="_fM8pMeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOjLseUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return vehiculo.getConsumo()+0.4;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fM5l4OUUEeu518O4MRMQJA" name="getDescripcion" method="_fOiko-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fM6M8OUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fM7bEuUUEeu518O4MRMQJA" name="getVelocidadMaxima" method="_fOikpeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fM7bE-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fM8pMeUUEeu518O4MRMQJA" name="getConsumo" method="_fOjLsOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fM93UOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fOStAOUUEeu518O4MRMQJA" name="Turbo" method="_fOikoOUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_fOStAuUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_fOStA-UUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_fOStAeUUEeu518O4MRMQJA" name="vehiculo" type="_fNElAOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_fOStBOUUEeu518O4MRMQJA" type="_fM4XwOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fNATkOUUEeu518O4MRMQJA" name="Van">
+        <ownedComment xmi:id="_fOln8OUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <generalization xmi:id="_fOT7IOUUEeu518O4MRMQJA" general="_fNElAOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOjLsuUUEeu518O4MRMQJA" name="Van" specification="_fNA6oOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOjLs-UUEeu518O4MRMQJA" type="_fNATkOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>descripcion=&quot;Van&quot;;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOjLtOUUEeu518O4MRMQJA" name="getVelocidadMaxima" specification="_fNBhs-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOjLteUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 200;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOjywOUUEeu518O4MRMQJA" name="getConsumo" specification="_fNCv0uUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOjyweUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return 7.5;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fNA6oOUUEeu518O4MRMQJA" name="Van" method="_fOjLsuUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_fNBhsOUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_fNBhseUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_fNBhsuUUEeu518O4MRMQJA" type="_fNATkOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fNBhs-UUEeu518O4MRMQJA" name="getVelocidadMaxima" method="_fOjLtOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fNCIwOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fNCv0uUUEeu518O4MRMQJA" name="getConsumo" method="_fOjywOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fNCv0-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_fNElAOUUEeu518O4MRMQJA" name="Vehiculo" isAbstract="true">
+        <ownedComment xmi:id="_fOln8eUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_fOaBwOUUEeu518O4MRMQJA" name="descripcion" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_fOao0OUUEeu518O4MRMQJA" value="&quot;Vehiculo GenÃ©rico&quot;"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_fOjywuUUEeu518O4MRMQJA" name="getDescripcion" specification="_fNFMEOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fOjyw-UUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>return descripcion;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_fNFMEOUUEeu518O4MRMQJA" name="getDescripcion" method="_fOjywuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_fNFMEeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fNFzIOUUEeu518O4MRMQJA" name="getVelocidadMaxima" isAbstract="true">
+          <ownedParameter xmi:id="_fNFzIeUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_fNFzIuUUEeu518O4MRMQJA" name="getConsumo" isAbstract="true">
+          <ownedParameter xmi:id="_fNGaMOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fOpSUOUUEeu518O4MRMQJA" name="" memberEnd="_fOpSUeUUEeu518O4MRMQJA _fOVwUOUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_fOpSUeUUEeu518O4MRMQJA" name="" type="_fMWzUOUUEeu518O4MRMQJA" association="_fOpSUOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fOqgceUUEeu518O4MRMQJA" name="" memberEnd="_fOqgcuUUEeu518O4MRMQJA _fOWXYOUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_fOqgcuUUEeu518O4MRMQJA" name="" type="_fMc58OUUEeu518O4MRMQJA" association="_fOqgceUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fOsVoOUUEeu518O4MRMQJA" name="" memberEnd="_fOsVoeUUEeu518O4MRMQJA _fOXlgOUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_fOsVoeUUEeu518O4MRMQJA" name="" type="_fMjAkOUUEeu518O4MRMQJA" association="_fOsVoOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fOtjwOUUEeu518O4MRMQJA" name="" memberEnd="_fOtjweUUEeu518O4MRMQJA _fOYMkOUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_fOtjweUUEeu518O4MRMQJA" name="" type="_fMqVUOUUEeu518O4MRMQJA" association="_fOtjwOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_fOux4eUUEeu518O4MRMQJA" name="" memberEnd="_fOvY8OUUEeu518O4MRMQJA _fOYzoeUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_fOvY8OUUEeu518O4MRMQJA" name="" type="_fM4XwOUUEeu518O4MRMQJA" association="_fOux4eUUEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_fBaHkOUUEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_fBauoOUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_fBauoeUUEeu518O4MRMQJA" base_Package="_eu1w4OUUEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMYogOUUEeu518O4MRMQJA" base_Element="_fMYBcOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMYogeUUEeu518O4MRMQJA" base_Element="_fMYBcOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMZPkOUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMZ2oOUUEeu518O4MRMQJA" base_Element="_fMZPkeUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMadsOUUEeu518O4MRMQJA" base_Element="_fMZPkeUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMadseUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMbEweUUEeu518O4MRMQJA" base_Element="_fMadsuUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMbEwuUUEeu518O4MRMQJA" base_Element="_fMadsuUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMbr0OUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMevIOUUEeu518O4MRMQJA" base_Element="_fMeIEOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMevIeUUEeu518O4MRMQJA" base_Element="_fMeIEOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMevIuUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMfWMeUUEeu518O4MRMQJA" base_Element="_fMevI-UUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMf9QOUUEeu518O4MRMQJA" base_Element="_fMevI-UUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMf9QeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMgkUOUUEeu518O4MRMQJA" base_Element="_fMf9QuUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMgkUeUUEeu518O4MRMQJA" base_Element="_fMf9QuUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMgkUuUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMlc0OUUEeu518O4MRMQJA" base_Element="_fMkOsOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMmD4OUUEeu518O4MRMQJA" base_Element="_fMkOsOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMmD4eUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMmq8OUUEeu518O4MRMQJA" base_Element="_fMmD4uUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMmq8eUUEeu518O4MRMQJA" base_Element="_fMmD4uUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMmq8uUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMogIOUUEeu518O4MRMQJA" base_Element="_fMmq8-UUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMpHMOUUEeu518O4MRMQJA" base_Element="_fMmq8-UUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMpHMeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMsKgOUUEeu518O4MRMQJA" base_Element="_fMrjcOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMsxkOUUEeu518O4MRMQJA" base_Element="_fMrjcOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMtYoOUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMt_sOUUEeu518O4MRMQJA" base_Element="_fMtYoeUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMumwOUUEeu518O4MRMQJA" base_Element="_fMtYoeUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMumweUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fMvN0OUUEeu518O4MRMQJA" base_Element="_fMumwuUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fMvN0eUUEeu518O4MRMQJA" base_Element="_fMumwuUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fMvN0uUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fM1UceUUEeu518O4MRMQJA" base_Element="_fM0tZOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fM17gOUUEeu518O4MRMQJA" base_Element="_fM0tZOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fM17geUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fM2ikeUUEeu518O4MRMQJA" base_Element="_fM17guUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fM2ikuUUEeu518O4MRMQJA" base_Element="_fM17guUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fM3JoOUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fM60AOUUEeu518O4MRMQJA" base_Element="_fM5l4OUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fM7bEOUUEeu518O4MRMQJA" base_Element="_fM5l4OUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fM7bEeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fM8CIOUUEeu518O4MRMQJA" base_Element="_fM7bEuUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fM8CIeUUEeu518O4MRMQJA" base_Element="_fM7bEuUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fM8pMOUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fM-eYOUUEeu518O4MRMQJA" base_Element="_fM8pMeUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fM_FcOUUEeu518O4MRMQJA" base_Element="_fM8pMeUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fM_FceUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fNCIweUUEeu518O4MRMQJA" base_Element="_fNBhs-UUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fNCv0OUUEeu518O4MRMQJA" base_Element="_fNBhs-UUEeu518O4MRMQJA">
+    <annotations xmi:id="_fNCv0eUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fNDW4OUUEeu518O4MRMQJA" base_Element="_fNCv0uUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_fND98OUUEeu518O4MRMQJA" base_Element="_fNCv0uUUEeu518O4MRMQJA">
+    <annotations xmi:id="_fND98eUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fOVwUeUUEeu518O4MRMQJA" base_Element="_fOVwUOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fOW-cOUUEeu518O4MRMQJA" base_Element="_fOWXYOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fOXlgeUUEeu518O4MRMQJA" base_Element="_fOXlgOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fOYzoOUUEeu518O4MRMQJA" base_Element="_fOYMkOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fOZasOUUEeu518O4MRMQJA" base_Element="_fOYzoeUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_fOao0eUUEeu518O4MRMQJA" base_Element="_fOaBwOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_fOqgcOUUEeu518O4MRMQJA" base_Element="_fOpSUOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_fOrukOUUEeu518O4MRMQJA" base_Element="_fOqgceUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_fOs8sOUUEeu518O4MRMQJA" base_Element="_fOsVoOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_fOux4OUUEeu518O4MRMQJA" base_Element="_fOtjwOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_fOwAAOUUEeu518O4MRMQJA" base_Element="_fOux4eUUEeu518O4MRMQJA"/>
+</xmi:XMI>

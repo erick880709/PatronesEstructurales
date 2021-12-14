@@ -1,0 +1,825 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.diagrams="http://ns.yatta-solutions.com/umllab/diagrams/1.1.0" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_e2FoYOUUEeu518O4MRMQJA">
+  <modelElement href="PatronesEstructurales.uml#_fL5gUOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h85BQOUUEeu518O4MRMQJA" targetItem="_h86PYOUUEeu518O4MRMQJA" sourceItem="_hzkGIOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_h89SsOUUEeu518O4MRMQJA" sourceAnchor="123.0,0.0" targetAnchor="95.0,54.0" superClass="_h86PYOUUEeu518O4MRMQJA" subClass="_h9NKUOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fON0gOUUEeu518O4MRMQJA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h8-g0OUUEeu518O4MRMQJA" targetItem="_h9NKUOUUEeu518O4MRMQJA" sourceItem="_h89SseUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h9CyQOUUEeu518O4MRMQJA" sourceAnchor="246.0,56.0" targetAnchor="183.0,118.0" target="_iGozIOUUEeu518O4MRMQJA" source="_h9NKUOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOpSUOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXvKMOUUEeu518O4MRMQJA" sourceX="865" targetX="416" targetY="656"/>
+    <bendpoints xmi:id="_iXvKMeUUEeu518O4MRMQJA" sourceX="865" sourceY="-637" targetX="416" targetY="19"/>
+    <bendpoints xmi:id="_iXvKMuUUEeu518O4MRMQJA" sourceX="449" sourceY="-637" targetY="19"/>
+    <stereotypes xmi:id="_h9CyQeUUEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesEstructurales.uml#_fOqgcOUUEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h9CyQuUUEeu518O4MRMQJA" text="">
+      <visualProperties xmi:id="_iX0CsOUUEeu518O4MRMQJA" position="-18.5,17.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_h9CyQ-UUEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesEstructurales.uml#_fOpSUeUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iXzbouUUEeu518O4MRMQJA" position="5.0,-48.5"/>
+      <visibility xmi:id="_h9CyROUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h9CyReUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h9CyRuUUEeu518O4MRMQJA" aggregationKind="NONE" name="vehiculo" navigable="true">
+      <modelElement href="PatronesEstructurales.uml#_fOVwUOUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX0pwOUUEeu518O4MRMQJA" position="110.0,-29.5"/>
+      <visibility xmi:id="_h9CyR-UUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_h9CySOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_h-Mo0OUUEeu518O4MRMQJA" sourceAnchor="137.0,0.0" targetAnchor="95.0,54.0" superClass="_h86PYOUUEeu518O4MRMQJA" subClass="_h--r8OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOPCoOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXwYUOUUEeu518O4MRMQJA" sourceY="-542" targetX="-559" targetY="64"/>
+    <bendpoints xmi:id="_iXwYUeUUEeu518O4MRMQJA" sourceX="559" sourceY="-542" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h-dHgOUUEeu518O4MRMQJA" targetItem="_h--r8OUUEeu518O4MRMQJA" sourceItem="_h-RhUOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h-iAAOUUEeu518O4MRMQJA" sourceAnchor="274.0,56.0" targetAnchor="144.0,0.0" target="_iGozIOUUEeu518O4MRMQJA" source="_h--r8OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOqgceUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXvxQOUUEeu518O4MRMQJA" sourceX="1488" targetX="533" targetY="1034"/>
+    <bendpoints xmi:id="_iXvxQeUUEeu518O4MRMQJA" sourceX="1488" sourceY="-1118" targetX="533" targetY="-84"/>
+    <bendpoints xmi:id="_iXvxQuUUEeu518O4MRMQJA" sourceX="955" sourceY="-1118" targetY="-84"/>
+    <stereotypes xmi:id="_h-82wOUUEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesEstructurales.uml#_fOrukOUUEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h-8PsOUUEeu518O4MRMQJA" text="">
+      <visualProperties xmi:id="_iX2e8OUUEeu518O4MRMQJA" position="-18.5,17.499999999999773"/>
+    </nameVisual>
+    <sourceRole xmi:id="_h-8PseUUEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesEstructurales.uml#_fOqgcuUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX1Q0OUUEeu518O4MRMQJA" position="5.0,-48.5"/>
+      <visibility xmi:id="_h-82wuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h-82weUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h-8PsuUUEeu518O4MRMQJA" aggregationKind="NONE" name="vehiculo" navigable="true">
+      <modelElement href="PatronesEstructurales.uml#_fOWXYOUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX2e8eUUEeu518O4MRMQJA" position="-69.0,-50.0"/>
+      <visibility xmi:id="_h-82xOUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_h-82w-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_h_OjkOUUEeu518O4MRMQJA" sourceAnchor="143.0,0.0" targetAnchor="95.0,54.0" superClass="_h86PYOUUEeu518O4MRMQJA" subClass="_h_m-EOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOPps-UUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXw_YeUUEeu518O4MRMQJA" sourceY="-22" targetX="715" targetY="64"/>
+    <bendpoints xmi:id="_iXw_YuUUEeu518O4MRMQJA" sourceX="-715" sourceY="-22" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_h_ebMOUUEeu518O4MRMQJA" targetItem="_h_m-EOUUEeu518O4MRMQJA" sourceItem="_h_SN8OUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_h_fpUOUUEeu518O4MRMQJA" sourceAnchor="286.0,56.0" targetAnchor="157.0,118.0" target="_iGozIOUUEeu518O4MRMQJA" source="_h_m-EOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOsVoOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXwYUuUUEeu518O4MRMQJA" sourceX="52" targetX="364" targetY="396"/>
+    <bendpoints xmi:id="_iXwYU-UUEeu518O4MRMQJA" sourceX="52" sourceY="-247" targetX="364" targetY="149"/>
+    <bendpoints xmi:id="_iXw_YOUUEeu518O4MRMQJA" sourceX="-312" sourceY="-247" targetY="149"/>
+    <stereotypes xmi:id="_h_kh0OUUEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesEstructurales.uml#_fOs8sOUUEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_h_jTsOUUEeu518O4MRMQJA" text="">
+      <visualProperties xmi:id="_iX4UIOUUEeu518O4MRMQJA" position="-18.5,160.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_h_jTseUUEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesEstructurales.uml#_fOsVoeUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX3tEOUUEeu518O4MRMQJA" position="5.0,-48.5"/>
+      <visibility xmi:id="_h_lv8eUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h_lv8OUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_h_j6wOUUEeu518O4MRMQJA" aggregationKind="NONE" name="vehiculo" navigable="true">
+      <modelElement href="PatronesEstructurales.uml#_fOXlgOUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX4UIeUUEeu518O4MRMQJA" position="5.0,100.49999999999994"/>
+      <visibility xmi:id="_h_mXAOUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_h_lv8uUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_iADqAOUUEeu518O4MRMQJA" sourceAnchor="201.0,0.0" targetAnchor="95.0,54.0" superClass="_h86PYOUUEeu518O4MRMQJA" subClass="_iBHZ8OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOQ30-UUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXyNgOUUEeu518O4MRMQJA" sourceY="-152" targetX="351" targetY="64"/>
+    <bendpoints xmi:id="_iXyNgeUUEeu518O4MRMQJA" sourceX="-351" sourceY="-152" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_iAz38OUUEeu518O4MRMQJA" targetItem="_iBHZ8OUUEeu518O4MRMQJA" sourceItem="_iAcrkOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_iA1tIOUUEeu518O4MRMQJA" sourceAnchor="402.0,56.0" targetAnchor="170.0,118.0" target="_iGozIOUUEeu518O4MRMQJA" source="_iBHZ8OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOtjwOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXxmcOUUEeu518O4MRMQJA" sourceX="397" targetX="390" targetY="526"/>
+    <bendpoints xmi:id="_iXxmceUUEeu518O4MRMQJA" sourceX="397" sourceY="-442" targetX="390" targetY="84"/>
+    <bendpoints xmi:id="_iXxmcuUUEeu518O4MRMQJA" sourceX="7" sourceY="-442" targetY="84"/>
+    <stereotypes xmi:id="_iBE9sOUUEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesEstructurales.uml#_fOux4OUUEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_iBDvkOUUEeu518O4MRMQJA" text="">
+      <visualProperties xmi:id="_iX5iQOUUEeu518O4MRMQJA" position="-18.5,17.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_iBEWoOUUEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesEstructurales.uml#_fOtjweUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX47MOUUEeu518O4MRMQJA" position="5.0,-48.5"/>
+      <visibility xmi:id="_iBFkweUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iBFkwOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_iBEWoeUUEeu518O4MRMQJA" aggregationKind="NONE" name="vehiculo" navigable="true">
+      <modelElement href="PatronesEstructurales.uml#_fOYMkOUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX5iQeUUEeu518O4MRMQJA" position="5.0,35.5"/>
+      <visibility xmi:id="_iBFkw-UUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_iBFkwuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_iCR3kOUUEeu518O4MRMQJA" targetItem="_iCer4OUUEeu518O4MRMQJA" sourceItem="_iB2ZwOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_iDD6sOUUEeu518O4MRMQJA" targetItem="_iDUZYOUUEeu518O4MRMQJA" sourceItem="_iCw_wOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_iDNrsOUUEeu518O4MRMQJA" sourceAnchor="115.0,0.0" targetAnchor="144.0,118.0" superClass="_iGozIOUUEeu518O4MRMQJA" subClass="_iDUZYOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOSF8OUUEeu518O4MRMQJA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_iDRWEOUUEeu518O4MRMQJA" targetItem="_iGozIOUUEeu518O4MRMQJA" sourceItem="_iDQH8OUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_iDR9IOUUEeu518O4MRMQJA" sourceAnchor="95.0,0.0" targetAnchor="144.0,118.0" superClass="_iGozIOUUEeu518O4MRMQJA" subClass="_h86PYOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOMmYOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXujIOUUEeu518O4MRMQJA" sourceY="-25" targetX="-533" targetY="175"/>
+    <bendpoints xmi:id="_iXujIeUUEeu518O4MRMQJA" sourceX="533" sourceY="-25" targetY="175"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_iD_u0OUUEeu518O4MRMQJA" sourceAnchor="246.0,56.0" targetAnchor="288.0,59.0" target="_iGozIOUUEeu518O4MRMQJA" source="_iEtggOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOux4eUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXy0kOUUEeu518O4MRMQJA" sourceX="1177" targetX="350" targetY="845"/>
+    <bendpoints xmi:id="_iXy0keUUEeu518O4MRMQJA" sourceX="1177" sourceY="-845" targetX="350"/>
+    <stereotypes xmi:id="_iEooAuUUEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesEstructurales.uml#_fOwAAOUUEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_iEoA8OUUEeu518O4MRMQJA" text="">
+      <visualProperties xmi:id="_iX6wYOUUEeu518O4MRMQJA" position="-18.500000000000227,-404.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_iEooAOUUEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesEstructurales.uml#_fOvY8OUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX6JUOUUEeu518O4MRMQJA" position="5.0,-48.5"/>
+      <visibility xmi:id="_iErrUeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iErrUOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_iEooAeUUEeu518O4MRMQJA" aggregationKind="NONE" name="vehiculo" navigable="true">
+      <modelElement href="PatronesEstructurales.uml#_fOYzoeUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_iX6wYeUUEeu518O4MRMQJA" position="5.0,-48.500000000000114"/>
+      <visibility xmi:id="_iErrU-UUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_iErrUuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_iEdB0OUUEeu518O4MRMQJA" sourceAnchor="123.0,0.0" targetAnchor="95.0,54.0" superClass="_h86PYOUUEeu518O4MRMQJA" subClass="_iEtggOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOTUEOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXy0kuUUEeu518O4MRMQJA" sourceY="-412" targetX="-273" targetY="64"/>
+    <bendpoints xmi:id="_iXy0k-UUEeu518O4MRMQJA" sourceX="273" sourceY="-412" targetY="64"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_iEnZ4eUUEeu518O4MRMQJA" targetItem="_iEtggOUUEeu518O4MRMQJA" sourceItem="_iEnZ4OUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_iFhY0OUUEeu518O4MRMQJA" sourceAnchor="115.0,0.0" targetAnchor="144.0,118.0" superClass="_iGozIOUUEeu518O4MRMQJA" subClass="_iGPKgOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOT7IOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_iXzboOUUEeu518O4MRMQJA" sourceY="-19" targetX="247" targetY="175"/>
+    <bendpoints xmi:id="_iXzboeUUEeu518O4MRMQJA" sourceX="-247" sourceY="-19" targetY="175"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.diagrams:ConnectionVisual" xmi:id="_iGNVUOUUEeu518O4MRMQJA" targetItem="_iGPKgOUUEeu518O4MRMQJA" sourceItem="_iGBIEOUUEeu518O4MRMQJA"/>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_hzkGIOUUEeu518O4MRMQJA" sourceConnectionVisual="_h85BQOUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_h86PYOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOkZ0OUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h89SseUUEeu518O4MRMQJA" sourceConnectionVisual="_h8-g0OUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_h9NKUOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOkZ0eUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h-RhUOUUEeu518O4MRMQJA" sourceConnectionVisual="_h-dHgOUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_h--r8OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOkZ0uUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_h_SN8OUUEeu518O4MRMQJA" sourceConnectionVisual="_h_ebMOUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_h_m-EOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOlA4OUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_iAcrkOUUEeu518O4MRMQJA" sourceConnectionVisual="_iAz38OUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_iBHZ8OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOlA4eUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_iB2ZwOUUEeu518O4MRMQJA" sourceConnectionVisual="_iCR3kOUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_iCer4OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOlA4uUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_iCw_wOUUEeu518O4MRMQJA" sourceConnectionVisual="_iDD6sOUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_iDUZYOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOlA4-UUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_iDQH8OUUEeu518O4MRMQJA" sourceConnectionVisual="_iDRWEOUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_iGozIOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOln8eUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_iEnZ4OUUEeu518O4MRMQJA" sourceConnectionVisual="_iEnZ4eUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_iEtggOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOlA5OUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.diagrams:CommentVisual" xmi:id="_iGBIEOUUEeu518O4MRMQJA" sourceConnectionVisual="_iGNVUOUUEeu518O4MRMQJA" text="*&#xD;&#xA;@author jvelez" item="_iGPKgOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fOln8OUUEeu518O4MRMQJA"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h86PYOUUEeu518O4MRMQJA" comments="_hzkGIOUUEeu518O4MRMQJA" targetConnectionVisual="_h85BQOUUEeu518O4MRMQJA" name="DecoradorVehiculo" abstractClass="true" generalizations="_iDR9IOUUEeu518O4MRMQJA" subclassedBy="_h89SsOUUEeu518O4MRMQJA _h-Mo0OUUEeu518O4MRMQJA _h_OjkOUUEeu518O4MRMQJA _iADqAOUUEeu518O4MRMQJA _iEdB0OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fMU-IOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_h86PYeUUEeu518O4MRMQJA" position="611.0,432.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h86PYuUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_h86PY-UUEeu518O4MRMQJA" abstractOperation="true" name="getDescripcion">
+      <modelElement href="PatronesEstructurales.uml#_fMVlMOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_h86PZOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h86PZeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h86PZuUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMWMQOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h86PZ-UUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h9NKUOUUEeu518O4MRMQJA" comments="_h89SseUUEeu518O4MRMQJA" targetConnectionVisual="_h8-g0OUUEeu518O4MRMQJA" name="Diesel" associationsOut="_h9CyQOUUEeu518O4MRMQJA" generalizations="_h89SsOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fMWzUOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_h9NKUeUUEeu518O4MRMQJA" position="583.0,832.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h9NKUuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_h9NKU-UUEeu518O4MRMQJA" name="vehiculo">
+      <modelElement href="PatronesEstructurales.uml#_fOVwUOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h9NKVOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fOVwUeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h9NKVeUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_h9NKVuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_h9NKV-UUEeu518O4MRMQJA" name="Vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h9NKWOUUEeu518O4MRMQJA" name="getDescripcion">
+      <modelElement href="PatronesEstructurales.uml#_fMYBcOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h9NKWeUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMYogOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h9NKWuUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMYogeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h9NKW-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h9NKXOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h9NKXeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMYBceUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h9NKXuUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h9NKX-UUEeu518O4MRMQJA" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fMZPkeUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h9NKYOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMZ2oOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h9NKYeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMadsOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h9NKYuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h9NKY-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h9NKZOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMZPkuUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h9NKZeUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h9NKZuUUEeu518O4MRMQJA" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fMadsuUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h9NKZ-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMbEweUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h9NKaOUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMbEwuUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h9NKaeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h9NKauUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h9NKa-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMbEwOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h9NKbOUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h9NKbeUUEeu518O4MRMQJA" name="Diesel">
+      <modelElement href="PatronesEstructurales.uml#_fONNcOUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_h9NKbuUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_h9NKb-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h9NKcOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h9NKceUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fONNdOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h9NKcuUUEeu518O4MRMQJA" name="Diesel">
+          <modelElement href="PatronesEstructurales.uml#_fMWzUOUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h9NKc-UUEeu518O4MRMQJA" name="vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fONNceUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_h9NKdOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_h9NKdeUUEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h--r8OUUEeu518O4MRMQJA" comments="_h-RhUOUUEeu518O4MRMQJA" targetConnectionVisual="_h-dHgOUUEeu518O4MRMQJA" name="Gasolina" associationsOut="_h-iAAOUUEeu518O4MRMQJA" generalizations="_h-Mo0OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fMc58OUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_h--r8eUUEeu518O4MRMQJA" position="10.0,1092.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h--r8uUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_h--r8-UUEeu518O4MRMQJA" name="vehiculo">
+      <modelElement href="PatronesEstructurales.uml#_fOWXYOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h--r9OUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fOW-cOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h--r9eUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_h--r9uUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_h--r9-UUEeu518O4MRMQJA" name="Vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h--r-OUUEeu518O4MRMQJA" name="getDescripcion">
+      <modelElement href="PatronesEstructurales.uml#_fMeIEOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h--r-eUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMevIOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h--r-uUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMevIeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h--r--UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h--r_OUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h--r_eUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMeIEeUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h--r_uUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h--r_-UUEeu518O4MRMQJA" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fMevI-UUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h--sAOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMfWMeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h--sAeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMf9QOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h--sAuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h--sA-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h--sBOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMfWMOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h--sBeUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h--sBuUUEeu518O4MRMQJA" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fMf9QuUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h--sB-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMgkUOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h--sCOUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMgkUeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h--sCeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h--sCuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h--sC-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMf9Q-UUEeu518O4MRMQJA"/>
+        <type xmi:id="_h--sDOUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h--sDeUUEeu518O4MRMQJA" name="Gasolina">
+      <modelElement href="PatronesEstructurales.uml#_fOObkOUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_h--sDuUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_h--sD-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h--sEOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h--sEeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fOOblOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h--sEuUUEeu518O4MRMQJA" name="Gasolina">
+          <modelElement href="PatronesEstructurales.uml#_fMc58OUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h--sE-UUEeu518O4MRMQJA" name="vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fOObkeUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_h--sFOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_h--sFeUUEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_h_m-EOUUEeu518O4MRMQJA" comments="_h_SN8OUUEeu518O4MRMQJA" targetConnectionVisual="_h_ebMOUUEeu518O4MRMQJA" name="Inyeccion" associationsOut="_h_fpUOUUEeu518O4MRMQJA" generalizations="_h_OjkOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fMjAkOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_h_m-EeUUEeu518O4MRMQJA" position="1278.0,572.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_h_m-EuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_h_m-E-UUEeu518O4MRMQJA" name="vehiculo">
+      <modelElement href="PatronesEstructurales.uml#_fOXlgOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h_m-FOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fOXlgeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h_m-FeUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_h_m-FuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_h_m-F-UUEeu518O4MRMQJA" name="Vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_h_m-GOUUEeu518O4MRMQJA" name="getDescripcion">
+      <modelElement href="PatronesEstructurales.uml#_fMkOsOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h_m-GeUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMlc0OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h_m-GuUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMmD4OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h_m-G-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h_m-HOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h_m-HeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMk1wOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h_m-HuUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h_m-H-UUEeu518O4MRMQJA" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fMmD4uUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h_m-IOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMmq8OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h_m-IeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMmq8eUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h_m-IuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h_m-I-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h_m-JOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMmD4-UUEeu518O4MRMQJA"/>
+        <type xmi:id="_h_m-JeUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h_m-JuUUEeu518O4MRMQJA" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fMmq8-UUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_h_m-J-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMogIOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_h_m-KOUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMpHMOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_h_m-KeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h_m-KuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h_m-K-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMn5EOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h_m-LOUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_h_m-LeUUEeu518O4MRMQJA" name="Inyeccion">
+      <modelElement href="PatronesEstructurales.uml#_fOPCoeUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_h_m-LuUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_h_m-L-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_h_m-MOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_h_m-MeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fOPpsuUUEeu518O4MRMQJA"/>
+        <type xmi:id="_h_m-MuUUEeu518O4MRMQJA" name="Inyeccion">
+          <modelElement href="PatronesEstructurales.uml#_fMjAkOUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_h_m-M-UUEeu518O4MRMQJA" name="vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fOPCouUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_h_m-NOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_h_m-NeUUEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_iBHZ8OUUEeu518O4MRMQJA" comments="_iAcrkOUUEeu518O4MRMQJA" targetConnectionVisual="_iAz38OUUEeu518O4MRMQJA" name="InyeccionElectronica" associationsOut="_iA1tIOUUEeu518O4MRMQJA" generalizations="_iADqAOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fMqVUOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_iBHZ8eUUEeu518O4MRMQJA" position="856.0,702.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_iBHZ8uUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_iBHZ8-UUEeu518O4MRMQJA" name="vehiculo">
+      <modelElement href="PatronesEstructurales.uml#_fOYMkOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iBHZ9OUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fOYzoOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iBHZ9eUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_iBHZ9uUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_iBHZ9-UUEeu518O4MRMQJA" name="Vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_iBHZ-OUUEeu518O4MRMQJA" name="getDescripcion">
+      <modelElement href="PatronesEstructurales.uml#_fMrjcOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iBHZ-eUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMsKgOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iBHZ-uUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMsxkOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iBHZ--UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iBHZ_OUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iBHZ_eUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMrjceUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iBHZ_uUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iBHZ_-UUEeu518O4MRMQJA" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fMtYoeUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iBHaAOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMt_sOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iBHaAeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMumwOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iBHaAuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iBHaA-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iBHaBOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMtYouUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iBHaBeUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iBHaBuUUEeu518O4MRMQJA" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fMumwuUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iBHaB-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fMvN0OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iBHaCOUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fMvN0eUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iBHaCeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iBHaCuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iBHaC-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fMumw-UUEeu518O4MRMQJA"/>
+        <type xmi:id="_iBHaDOUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iBHaDeUUEeu518O4MRMQJA" name="InyeccionElectronica">
+      <modelElement href="PatronesEstructurales.uml#_fOQQwOUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_iBHaDuUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_iBHaD-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iBHaEOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iBHaEeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fOQ30uUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iBHaEuUUEeu518O4MRMQJA" name="InyeccionElectronica">
+          <modelElement href="PatronesEstructurales.uml#_fMqVUOUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_iBHaE-UUEeu518O4MRMQJA" name="vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fOQQweUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_iBHaFOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_iBHaFeUUEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_iCer4OUUEeu518O4MRMQJA" comments="_iB2ZwOUUEeu518O4MRMQJA" targetConnectionVisual="_iCR3kOUUEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesEstructurales.uml#_fMxDAOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_iCer4eUUEeu518O4MRMQJA" position="14.0,1267.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_iCer4uUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_iCer4-UUEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesEstructurales.uml#_fMy4MOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_iCer5OUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iCer5eUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_iCer5uUUEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesEstructurales.uml#_fMy4MeUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_iCer5-UUEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_iCer6OUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_iCer6eUUEeu518O4MRMQJA" name="mostrarCaracteristicas">
+      <modelElement href="PatronesEstructurales.uml#_fORe4OUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_iCer6uUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iCer6-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_iCer7OUUEeu518O4MRMQJA" name="vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fORe4eUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_iCer7eUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_iCer7uUUEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_iDUZYOUUEeu518O4MRMQJA" comments="_iCw_wOUUEeu518O4MRMQJA" targetConnectionVisual="_iDD6sOUUEeu518O4MRMQJA" name="Sedan" generalizations="_iDNrsOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fM0GUOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_iDUZYeUUEeu518O4MRMQJA" position="1124.0,439.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_iDUZYuUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_iDUZY-UUEeu518O4MRMQJA" name="Sedan">
+      <modelElement href="PatronesEstructurales.uml#_fM0tYOUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_iDUZZOUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_iDUZZeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iDUZZuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iDUZZ-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fM0tY-UUEeu518O4MRMQJA"/>
+        <type xmi:id="_iDUZaOUUEeu518O4MRMQJA" name="Sedan">
+          <modelElement href="PatronesEstructurales.uml#_fM0GUOUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iDUZaeUUEeu518O4MRMQJA" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fM0tZOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iDUZauUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fM1UceUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iDUZa-UUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fM17gOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iDUZbOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iDUZbeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iDUZbuUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fM1UcOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iDUZb-UUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iDUZcOUUEeu518O4MRMQJA" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fM17guUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iDUZceUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fM2ikeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iDUZcuUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fM2ikuUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iDUZc-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iDUZdOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iDUZdeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fM2ikOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iDUZduUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_iEtggOUUEeu518O4MRMQJA" comments="_iEnZ4OUUEeu518O4MRMQJA" targetConnectionVisual="_iEnZ4eUUEeu518O4MRMQJA" name="Turbo" associationsOut="_iD_u0OUUEeu518O4MRMQJA" generalizations="_iEdB0OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fM4XwOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_iEtggeUUEeu518O4MRMQJA" position="310.0,962.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_iEtgguUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_iEtgg-UUEeu518O4MRMQJA" name="vehiculo">
+      <modelElement href="PatronesEstructurales.uml#_fOYzoeUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iEtghOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fOZasOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iEtgheUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_iEtghuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_iEtgh-UUEeu518O4MRMQJA" name="Vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_iEtgiOUUEeu518O4MRMQJA" name="getDescripcion">
+      <modelElement href="PatronesEstructurales.uml#_fM5l4OUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iEtgieUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fM60AOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iEtgiuUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fM7bEOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iEtgi-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iEtgjOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iEtgjeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fM6M8OUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iEtgjuUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iEtgj-UUEeu518O4MRMQJA" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fM7bEuUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iEtgkOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fM8CIOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iEtgkeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fM8CIeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iEtgkuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iEtgk-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iEtglOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fM7bE-UUEeu518O4MRMQJA"/>
+        <type xmi:id="_iEtgleUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iEtgluUUEeu518O4MRMQJA" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fM8pMeUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iEtgl-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fM-eYOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iEtgmOUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fM_FcOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iEtgmeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iEtgmuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iEtgm-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fM93UOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iEtgnOUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iEtgneUUEeu518O4MRMQJA" name="Turbo">
+      <modelElement href="PatronesEstructurales.uml#_fOStAOUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_iEtgnuUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_iEtgn-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iEtgoOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iEtgoeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fOStBOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iEtgouUUEeu518O4MRMQJA" name="Turbo">
+          <modelElement href="PatronesEstructurales.uml#_fM4XwOUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_iEtgo-UUEeu518O4MRMQJA" name="vehiculo">
+        <modelElement href="PatronesEstructurales.uml#_fOStAeUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_iEtgpOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_iEtgpeUUEeu518O4MRMQJA" name="Vehiculo">
+          <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_iGPKgOUUEeu518O4MRMQJA" comments="_iGBIEOUUEeu518O4MRMQJA" targetConnectionVisual="_iGNVUOUUEeu518O4MRMQJA" name="Van" generalizations="_iFhY0OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fNATkOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_iGPKgeUUEeu518O4MRMQJA" position="1371.0,426.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_iGPKguUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_iGPKg-UUEeu518O4MRMQJA" name="Van">
+      <modelElement href="PatronesEstructurales.uml#_fNA6oOUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_iGPKhOUUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_iGPKheUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iGPKhuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iGPKh-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fNBhsuUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iGPKiOUUEeu518O4MRMQJA" name="Van">
+          <modelElement href="PatronesEstructurales.uml#_fNATkOUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iGPKieUUEeu518O4MRMQJA" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fNBhs-UUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iGPKiuUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fNCIweUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iGPKi-UUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fNCv0OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iGPKjOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iGPKjeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iGPKjuUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fNCIwOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iGPKj-UUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iGPKkOUUEeu518O4MRMQJA" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fNCv0uUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iGPKkeUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fNDW4OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_iGPKkuUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_fND98OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iGPKk-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iGPKlOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iGPKleUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fNCv0-UUEeu518O4MRMQJA"/>
+        <type xmi:id="_iGPKluUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_iGozIOUUEeu518O4MRMQJA" comments="_iDQH8OUUEeu518O4MRMQJA" targetConnectionVisual="_iDRWEOUUEeu518O4MRMQJA" name="Vehiculo" abstractClass="true" associationsIn="_h9CyQOUUEeu518O4MRMQJA _h-iAAOUUEeu518O4MRMQJA _h_fpUOUUEeu518O4MRMQJA _iA1tIOUUEeu518O4MRMQJA _iD_u0OUUEeu518O4MRMQJA" subclassedBy="_iDNrsOUUEeu518O4MRMQJA _iDR9IOUUEeu518O4MRMQJA _iFhY0OUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_fNElAOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_iGozIeUUEeu518O4MRMQJA" position="1095.0,114.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_iGozIuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_iGozI-UUEeu518O4MRMQJA" defaultValue="&quot;Vehiculo GenÃ©rico&quot;" name="descripcion">
+      <modelElement href="PatronesEstructurales.uml#_fOaBwOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_iGozJOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_fOao0eUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_iGozJeUUEeu518O4MRMQJA" label="#"/>
+      <cardinality xmi:id="_iGozJuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_iGozJ-UUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_iGozKOUUEeu518O4MRMQJA" name="getDescripcion">
+      <modelElement href="PatronesEstructurales.uml#_fNFMEOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_iGozKeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iGozKuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iGozK-UUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fNFMEeUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iGozLOUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iGozLeUUEeu518O4MRMQJA" abstractOperation="true" name="getVelocidadMaxima">
+      <modelElement href="PatronesEstructurales.uml#_fNFzIOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_iGozLuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iGozL-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iGozMOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fNFzIeUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iGozMeUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_iGozMuUUEeu518O4MRMQJA" abstractOperation="true" name="getConsumo">
+      <modelElement href="PatronesEstructurales.uml#_fNFzIuUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_iGozM-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_iGozNOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_iGozNeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_fNGaMOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_iGozNuUUEeu518O4MRMQJA" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

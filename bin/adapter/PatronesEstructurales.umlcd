@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_NMO1wOUUEeu518O4MRMQJA">
+  <modelElement href="PatronesEstructurales.uml#_NZfOoOUUEeu518O4MRMQJA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PUrI8OUUEeu518O4MRMQJA" target="_PUzEwOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_NcpQUOUUEeu518O4MRMQJA"/>
+    <nameVisual xmi:id="_PUrI8eUUEeu518O4MRMQJA" text=""/>
+    <sourceRole xmi:id="_PUrI8uUUEeu518O4MRMQJA" aggregationKind="NONE" name="fechaNacimiento" navigable="true">
+      <modelElement href="PatronesEstructurales.uml#_NacQ4OUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PUrI8-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PUrI9OUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PUrI9eUUEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesEstructurales.uml#_NcpQUeUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PUrI9uUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PUrI9-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PVZhsOUUEeu518O4MRMQJA" sourceAnchor="70.0,0.0" targetAnchor="69.0,90.0" dashed="true" superClass="_PUY1EOUUEeu518O4MRMQJA" subClass="_PVrOgOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_Nb5CYeUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_PjV3EOUUEeu518O4MRMQJA" sourceY="-15" targetX="104" targetY="33"/>
+    <bendpoints xmi:id="_PjWeIOUUEeu518O4MRMQJA" sourceX="-104" sourceY="-15" targetY="33"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PWDpAOUUEeu518O4MRMQJA" sourceAnchor="120.0,0.0" targetAnchor="90.0,109.0" dashed="true" superClass="_PUzEwOUUEeu518O4MRMQJA" subClass="_PWaOUOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_Nb7eoOUUEeu518O4MRMQJA"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_PW1sIOUUEeu518O4MRMQJA" sourceAnchor="216.0,0.0" targetAnchor="77.0,109.0" target="_PUzEwOUUEeu518O4MRMQJA" source="_PXelUOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_Ncuv4OUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_PjWeIeUUEeu518O4MRMQJA" sourceY="-65" targetX="-325" targetY="24"/>
+    <bendpoints xmi:id="_PjWeIuUUEeu518O4MRMQJA" sourceX="325" sourceY="-65" targetY="24"/>
+    <stereotypes xmi:id="_PXa68uUUEeu518O4MRMQJA" name="Reference">
+      <modelElement href="PatronesEstructurales.uml#_Ncv-AOUUEeu518O4MRMQJA"/>
+    </stereotypes>
+    <nameVisual xmi:id="_PXaT4OUUEeu518O4MRMQJA" text="">
+      <visualProperties xmi:id="_PjYTUOUUEeu518O4MRMQJA" position="-102.5,-8.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_PXa68OUUEeu518O4MRMQJA" aggregationKind="NONE" name="">
+      <modelElement href="PatronesEstructurales.uml#_Ncuv4eUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_PjXsQeUUEeu518O4MRMQJA" position="5.0,-113.5"/>
+      <visibility xmi:id="_PXcwIeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PXcwIOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_PXa68eUUEeu518O4MRMQJA" aggregationKind="NONE" name="vieja" navigable="true">
+      <modelElement href="PatronesEstructurales.uml#_NcVuUOUUEeu518O4MRMQJA"/>
+      <visualProperties xmi:id="_PjYTUeUUEeu518O4MRMQJA" position="-151.0,27.5"/>
+      <visibility xmi:id="_PXcwI-UUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_PXcwIuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_PXRxAOUUEeu518O4MRMQJA" sourceAnchor="203.0,0.0" targetAnchor="69.0,90.0" dashed="true" superClass="_PUY1EOUUEeu518O4MRMQJA" subClass="_PXelUOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_Nb_JAOUUEeu518O4MRMQJA"/>
+    <bendpoints xmi:id="_PjXFMOUUEeu518O4MRMQJA" sourceY="-221" targetX="-26" targetY="33"/>
+    <bendpoints xmi:id="_PjXsQOUUEeu518O4MRMQJA" sourceX="26" sourceY="-221" targetY="33"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PUY1EOUUEeu518O4MRMQJA" name="IPersonaNueva" subclassedBy="_PVZhsOUUEeu518O4MRMQJA _PXRxAOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_NaYmgOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_PUY1EeUUEeu518O4MRMQJA" position="170.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PUY1EuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_PUY1E-UUEeu518O4MRMQJA" name="nombre">
+      <modelElement href="PatronesEstructurales.uml#_NaZNkOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PUY1FOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PUY1FeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PUY1FuUUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PUY1F-UUEeu518O4MRMQJA" name="edad">
+      <modelElement href="PatronesEstructurales.uml#_NaZ0oOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PUY1GOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PUY1GeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PUY1GuUUEeu518O4MRMQJA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_PUzEwOUUEeu518O4MRMQJA" name="IPersonaVieja" associationsIn="_PUrI8OUUEeu518O4MRMQJA _PW1sIOUUEeu518O4MRMQJA" subclassedBy="_PWDpAOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_NaabsOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_PUzEweUUEeu518O4MRMQJA" position="474.0,176.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PUzEwuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_PUzEw-UUEeu518O4MRMQJA" name="nombre">
+      <modelElement href="PatronesEstructurales.uml#_NabCwOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PUzExOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PUzExeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PUzExuUUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PUzEx-UUEeu518O4MRMQJA" name="apellido">
+      <modelElement href="PatronesEstructurales.uml#_Nabp0OUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PUzEyOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PUzEyeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PUzEyuUUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PUzEy-UUEeu518O4MRMQJA" name="fechaNacimiento">
+      <modelElement href="PatronesEstructurales.uml#_NacQ4OUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PUzEzOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PUzEzeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PUzEzuUUEeu518O4MRMQJA" name="Date">
+        <modelElement href="PatronesEstructurales.uml#_Nb1YAOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PU-q8OUUEeu518O4MRMQJA" name="Main">
+    <modelElement href="PatronesEstructurales.uml#_NadfAOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_PU-q8eUUEeu518O4MRMQJA" position="14.0,568.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PU-q8uUUEeu518O4MRMQJA" label="+"/>
+    <operations xmi:id="_PU-q8-UUEeu518O4MRMQJA" name="main" staticOperation="true">
+      <modelElement href="PatronesEstructurales.uml#_NaetIOUUEeu518O4MRMQJA"/>
+      <visibility xmi:id="_PU-q9OUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PU-q9eUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PU-q9uUUEeu518O4MRMQJA" name="args">
+        <modelElement href="PatronesEstructurales.uml#_NaetIeUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_PU-q9-UUEeu518O4MRMQJA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_PU-q-OUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PVrOgOUUEeu518O4MRMQJA" name="PersonaNueva" generalizations="_PVZhsOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_NafUMOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_PVrOgeUUEeu518O4MRMQJA" position="273.0,168.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PVrOguUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_PVrOg-UUEeu518O4MRMQJA" name="nombre">
+      <modelElement href="PatronesEstructurales.uml#_NcGdwOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PVrOhOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NcHE0OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PVrOheUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PVrOhuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PVrOh-UUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PVrOiOUUEeu518O4MRMQJA" name="edad">
+      <modelElement href="PatronesEstructurales.uml#_NcKIIOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PVrOieUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NcKIIeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PVrOiuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PVrOi-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PVrOjOUUEeu518O4MRMQJA" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PWaOUOUUEeu518O4MRMQJA" name="PersonaVieja" generalizations="_PWDpAOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_NakzwOUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_PWaOUeUUEeu518O4MRMQJA" position="444.0,331.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PWaOUuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_PWaOU-UUEeu518O4MRMQJA" name="nombre">
+      <modelElement href="PatronesEstructurales.uml#_NcOZkOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PWaOVOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NcOZkeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PWaOVeUUEeu518O4MRMQJA" name="MultiDeclaration">
+        <modelElement href="PatronesEstructurales.uml#_NcPAoOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PWaOVuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PWaOV-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PWaOWOUUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWaOWeUUEeu518O4MRMQJA" name="fechaNacimiento">
+      <modelElement href="PatronesEstructurales.uml#_NcSD8uUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PWaOWuUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NcSrAOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PWaOW-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PWaOXOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PWaOXeUUEeu518O4MRMQJA" name="Date">
+        <modelElement href="PatronesEstructurales.uml#_Nb1YAOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_PWaOXuUUEeu518O4MRMQJA" name="apellido">
+      <modelElement href="PatronesEstructurales.uml#_NcqecOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PWaOX-UUEeu518O4MRMQJA" name="MultiDeclaration">
+        <modelElement href="PatronesEstructurales.uml#_NcrFgOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PWaOYOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NcrFgeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PWaOYeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PWaOYuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PWaOY-UUEeu518O4MRMQJA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PWaOZOUUEeu518O4MRMQJA" name="getApellido">
+      <modelElement href="PatronesEstructurales.uml#_Namo8OUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PWaOZeUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NanQAOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PWaOZuUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_Nan3EOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PWaOZ-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PWaOaOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PWaOaeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_Namo8eUUEeu518O4MRMQJA"/>
+        <type xmi:id="_PWaOauUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PWaOa-UUEeu518O4MRMQJA" name="setApellido">
+      <modelElement href="PatronesEstructurales.uml#_NaoeIOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PWaObOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NapFMOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PWaObeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_NapsQOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PWaObuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PWaOb-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PWaOcOUUEeu518O4MRMQJA" name="apellido">
+        <modelElement href="PatronesEstructurales.uml#_NaoeIeUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_PWaOceUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_PWaOcuUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_PXelUOUUEeu518O4MRMQJA" name="ViejaANuevaAdapter" associationsOut="_PW1sIOUUEeu518O4MRMQJA" generalizations="_PXRxAOUUEeu518O4MRMQJA">
+    <modelElement href="PatronesEstructurales.uml#_NawZ8OUUEeu518O4MRMQJA"/>
+    <visualProperties xmi:id="_PXelUeUUEeu518O4MRMQJA" position="10.0,374.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_PXelUuUUEeu518O4MRMQJA" label="+"/>
+    <attributes xmi:id="_PXelU-UUEeu518O4MRMQJA" name="vieja">
+      <modelElement href="PatronesEstructurales.uml#_NcVuUOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PXelVOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NcWVYOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PXelVeUUEeu518O4MRMQJA" label="-"/>
+      <cardinality xmi:id="_PXelVuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <type xmi:id="_PXelV-UUEeu518O4MRMQJA" name="IPersonaVieja">
+        <modelElement href="PatronesEstructurales.uml#_NaabsOUUEeu518O4MRMQJA"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_PXelWOUUEeu518O4MRMQJA" name="getEdad">
+      <modelElement href="PatronesEstructurales.uml#_NayPIOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PXelWeUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_NazdQOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PXelWuUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_Na0EUOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PXelW-UUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PXelXOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PXelXeUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_NayPIeUUEeu518O4MRMQJA"/>
+        <type xmi:id="_PXelXuUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PXelX-UUEeu518O4MRMQJA" name="getNombre">
+      <modelElement href="PatronesEstructurales.uml#_Na0rYOUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PXelYOUUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_Na15gOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PXelYeUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_Na2gkOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PXelYuUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PXelY-UUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PXelZOUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_Na1ScOUUEeu518O4MRMQJA"/>
+        <type xmi:id="_PXelZeUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_PXelZuUUEeu518O4MRMQJA" name="setNombre">
+      <modelElement href="PatronesEstructurales.uml#_Na2gkuUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PXelZ-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_Na3HoeUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PXelaOUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_Na3usOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PXelaeUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PXelauUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PXela-UUEeu518O4MRMQJA" name="nombre">
+        <modelElement href="PatronesEstructurales.uml#_Na3HoOUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_PXelbOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_PXelbeUUEeu518O4MRMQJA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PXelbuUUEeu518O4MRMQJA" name="setEdad">
+      <modelElement href="PatronesEstructurales.uml#_Na5j4OUUEeu518O4MRMQJA"/>
+      <stereotypes xmi:id="_PXelb-UUEeu518O4MRMQJA" name="LegacyStyledElement">
+        <modelElement href="PatronesEstructurales.uml#_Na6K8OUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_PXelcOUUEeu518O4MRMQJA" name="Annotations">
+        <modelElement href="PatronesEstructurales.uml#_Na6yAOUUEeu518O4MRMQJA"/>
+      </stereotypes>
+      <visibility xmi:id="_PXelceUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PXelcuUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_PXelc-UUEeu518O4MRMQJA" name="edad">
+        <modelElement href="PatronesEstructurales.uml#_Na5j4eUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_PXeldOUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_PXeldeUUEeu518O4MRMQJA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_PXelduUUEeu518O4MRMQJA" name="ViejaANuevaAdapter">
+      <modelElement href="PatronesEstructurales.uml#_Nb_wEOUUEeu518O4MRMQJA"/>
+      <keywords xmi:id="_PXeld-UUEeu518O4MRMQJA" keyword="create"/>
+      <visibility xmi:id="_PXeleOUUEeu518O4MRMQJA" label="+"/>
+      <cardinality xmi:id="_PXeleeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_PXeleuUUEeu518O4MRMQJA">
+        <modelElement href="PatronesEstructurales.uml#_NcAXI-UUEeu518O4MRMQJA"/>
+        <type xmi:id="_PXele-UUEeu518O4MRMQJA" name="ViejaANuevaAdapter">
+          <modelElement href="PatronesEstructurales.uml#_NawZ8OUUEeu518O4MRMQJA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_PXelfOUUEeu518O4MRMQJA" name="vieja">
+        <modelElement href="PatronesEstructurales.uml#_NcAXIOUUEeu518O4MRMQJA"/>
+        <cardinality xmi:id="_PXelfeUUEeu518O4MRMQJA" label="1" max="1" min="1"/>
+        <type xmi:id="_PXelfuUUEeu518O4MRMQJA" name="IPersonaVieja">
+          <modelElement href="PatronesEstructurales.uml#_NaabsOUUEeu518O4MRMQJA"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

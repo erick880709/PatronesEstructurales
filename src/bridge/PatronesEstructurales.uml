@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_TR4lYOUUEeu518O4MRMQJA" name="PatronesEstructurales">
+    <eAnnotations xmi:id="_Tj7-sOUUEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Tj8lwOUUEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_Tj8lweUUEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesEstructurales/src"/>
+        <details xmi:id="_TwVb8OUUEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesEstructurales/src/bridge/Main.java;3953933815/1;/PatronesEstructurales/src/bridge/Gasolina.java;96907502/1;/PatronesEstructurales/src/bridge/IMotor.java;955386277/1;/PatronesEstructurales/src/bridge/Diesel.java;756396240/1;/PatronesEstructurales/src/bridge/Sedan.java;238213702/1;/PatronesEstructurales/src/bridge/Van.java;2589669416/1;/PatronesEstructurales/src/bridge/Vehiculo.java;2910334191/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_Tpxg8OUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_Tpxg8eUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_TpyIAOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_TpyIAeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_TpyIAuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_TpyIA-UUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_TpyIBOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_TpyIBeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_TpyvEOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Tp0kQOUUEeu518O4MRMQJA" name="bridge">
+      <packagedElement xmi:type="uml:Class" xmi:id="_TqJ7cOUUEeu518O4MRMQJA" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrKBAOUUEeu518O4MRMQJA" name="main" specification="_TqKigOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TrKBAeUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TrKBAuUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IMotor motorDiesel = new Diesel();&#xD;
+	        Vehiculo sedan = new Sedan(4, motorDiesel);&#xD;
+	        sedan.mostrarCaracteristicas();&#xD;
+	        &#xD;
+	        sedan.acelerar(2.4d);&#xD;
+	        &#xD;
+	        IMotor motorGasolina = new Gasolina();&#xD;
+	        Vehiculo van = new Van(true, motorGasolina);&#xD;
+	        van.mostrarCaracteristicas();&#xD;
+	        &#xD;
+	        van.acelerar(3.4d);&#xD;
+	    </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TqKigOUUEeu518O4MRMQJA" name="main" isStatic="true" method="_TrKBAOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TqLJkOUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_TqLJkeUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TqLwoOUUEeu518O4MRMQJA" name="Gasolina">
+        <interfaceRealization xmi:id="_Tq-a0OUUEeu518O4MRMQJA" client="_TqLwoOUUEeu518O4MRMQJA" supplier="_TqQpIOUUEeu518O4MRMQJA" contract="_TqQpIOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrKoEOUUEeu518O4MRMQJA" name="inyectarCombustible" specification="_TqMXsOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TrKoEeUUEeu518O4MRMQJA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;Inyectando &quot;+cantidad+&quot; ml. de GASOLINA&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrKoEuUUEeu518O4MRMQJA" name="consumirCombustible" specification="_TqOM4OUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>quemarCombustible();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrLPIOUUEeu518O4MRMQJA" name="quemarCombustible" specification="_TqPbAOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Quemando la GASOLINA&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TqMXsOUUEeu518O4MRMQJA" name="inyectarCombustible" method="_TrKoEOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TqMXseUUEeu518O4MRMQJA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TqOM4OUUEeu518O4MRMQJA" name="consumirCombustible" method="_TrKoEuUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_TqPbAOUUEeu518O4MRMQJA" name="quemarCombustible" method="_TrLPIOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_TqQpIOUUEeu518O4MRMQJA" name="IMotor">
+        <ownedOperation xmi:id="_TqRQMOUUEeu518O4MRMQJA" name="inyectarCombustible">
+          <ownedParameter xmi:id="_TqRQMeUUEeu518O4MRMQJA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TqR3QOUUEeu518O4MRMQJA" name="consumirCombustible"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TqR3QeUUEeu518O4MRMQJA" name="Diesel">
+        <interfaceRealization xmi:id="_Tq_B4OUUEeu518O4MRMQJA" client="_TqR3QeUUEeu518O4MRMQJA" supplier="_TqQpIOUUEeu518O4MRMQJA" contract="_TqQpIOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrLPIeUUEeu518O4MRMQJA" name="inyectarCombustible" specification="_TqTFYOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TrLPIuUUEeu518O4MRMQJA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;Inyectando &quot;+cantidad+&quot; ml. de ACPM&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrLPI-UUEeu518O4MRMQJA" name="consumirCombustible" specification="_TqUTguUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>quemarCombustible();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrL2MOUUEeu518O4MRMQJA" name="quemarCombustible" specification="_TqU6k-UUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Quemando el ACPM&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TqTFYOUUEeu518O4MRMQJA" name="inyectarCombustible" method="_TrLPIeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TqTFYeUUEeu518O4MRMQJA" name="cantidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TqUTguUUEeu518O4MRMQJA" name="consumirCombustible" method="_TrLPI-UUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_TqU6k-UUEeu518O4MRMQJA" name="quemarCombustible" method="_TrL2MOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TqWIsOUUEeu518O4MRMQJA" name="Sedan">
+        <generalization xmi:id="_TrBeIOUUEeu518O4MRMQJA" general="_TqerkOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_TrGWoOUUEeu518O4MRMQJA" name="capacidadMaletero" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrL2MeUUEeu518O4MRMQJA" name="Sedan" specification="_TrAQAOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TrL2MuUUEeu518O4MRMQJA" name="capacidadMaletero">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TrL2M-UUEeu518O4MRMQJA" name="motor" type="_TqQpIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_TrL2NOUUEeu518O4MRMQJA" type="_TqWIsOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>super(motor);&#xD;
+     this.capacidadMaletero = capacidadMaletero;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrMdQOUUEeu518O4MRMQJA" name="mostrarCaracteristicas" specification="_TqX94OUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Vehiculo SEDAN con un maletero de capacidad &quot;+capacidadMaletero);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TqX94OUUEeu518O4MRMQJA" name="mostrarCaracteristicas" method="_TrMdQOUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_TrAQAOUUEeu518O4MRMQJA" name="Sedan" method="_TrL2MeUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_TrA3EeUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_TrA3EuUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_TrAQAeUUEeu518O4MRMQJA" name="capacidadMaletero">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TrA3EOUUEeu518O4MRMQJA" name="motor" type="_TqQpIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_TrA3E-UUEeu518O4MRMQJA" type="_TqWIsOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TqaaIOUUEeu518O4MRMQJA" name="Van">
+        <generalization xmi:id="_TrDTUuUUEeu518O4MRMQJA" general="_TqerkOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_TrHkwOUUEeu518O4MRMQJA" name="puertaCorrediza" visibility="private">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrMdQeUUEeu518O4MRMQJA" name="Van" specification="_TrCsQOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TrMdQuUUEeu518O4MRMQJA" name="puertaCorrediza">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TrMdQ-UUEeu518O4MRMQJA" name="motor" type="_TqQpIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_TrMdROUUEeu518O4MRMQJA" type="_TqaaIOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>super(motor);&#xD;
+     this.puertaCorrediza = puertaCorrediza;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrNEUOUUEeu518O4MRMQJA" name="mostrarCaracteristicas" specification="_TqboQOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Vehiculo VAN &quot;+(puertaCorrediza ? &quot; con &quot; : &quot; sin&quot;)+&quot; puerta corrediza&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_TqboQOUUEeu518O4MRMQJA" name="mostrarCaracteristicas" method="_TrNEUOUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_TrCsQOUUEeu518O4MRMQJA" name="Van" method="_TrMdQeUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_TrCsQ-UUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_TrDTUOUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_TrCsQeUUEeu518O4MRMQJA" name="puertaCorrediza">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_TrCsQuUUEeu518O4MRMQJA" name="motor" type="_TqQpIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_TrDTUeUUEeu518O4MRMQJA" type="_TqaaIOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_TqerkOUUEeu518O4MRMQJA" name="Vehiculo" isAbstract="true">
+        <ownedAttribute xmi:id="_TrIy4OUUEeu518O4MRMQJA" name="motor" visibility="private" type="_TqQpIOUUEeu518O4MRMQJA" association="_TrQHoOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrNEUeUUEeu518O4MRMQJA" name="Vehiculo" specification="_TrEhcOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TrNEUuUUEeu518O4MRMQJA" name="motor" type="_TqQpIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_TrNEU-UUEeu518O4MRMQJA" type="_TqerkOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.motor = motor;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrNrYOUUEeu518O4MRMQJA" name="acelerar" specification="_Tqf5sOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_TrNrYeUUEeu518O4MRMQJA" name="combustible">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>motor.inyectarCombustible(combustible);&#xD;
+     motor.consumirCombustible();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_TrNrYuUUEeu518O4MRMQJA" name="frenar" specification="_TqggwOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;El vehículo está detenido.&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_Tqf5sOUUEeu518O4MRMQJA" name="acelerar" method="_TrNrYOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_Tqf5seUUEeu518O4MRMQJA" name="combustible">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_TqggwOUUEeu518O4MRMQJA" name="frenar" method="_TrNrYuUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_TqhH0OUUEeu518O4MRMQJA" name="mostrarCaracteristicas" isAbstract="true"/>
+        <ownedOperation xmi:id="_TrEhcOUUEeu518O4MRMQJA" name="Vehiculo" method="_TrNEUeUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_TrEhcuUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_TrEhc-UUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_TrEhceUUEeu518O4MRMQJA" name="motor" type="_TqQpIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_TrEhdOUUEeu518O4MRMQJA" type="_TqerkOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_TrQHoOUUEeu518O4MRMQJA" name="" memberEnd="_TrQHoeUUEeu518O4MRMQJA _TrIy4OUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_TrQHoeUUEeu518O4MRMQJA" name="" type="_TqerkOUUEeu518O4MRMQJA" association="_TrQHoOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Tj9M0OUUEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_Tj9M0eUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Tj9z4OUUEeu518O4MRMQJA" base_Package="_TR4lYOUUEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TqM-wOUUEeu518O4MRMQJA" base_Element="_TqMXsOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_TqNl0OUUEeu518O4MRMQJA" base_Element="_TqMXsOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_TqNl0eUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TqOz8OUUEeu518O4MRMQJA" base_Element="_TqOM4OUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_TqOz8eUUEeu518O4MRMQJA" base_Element="_TqOM4OUUEeu518O4MRMQJA">
+    <annotations xmi:id="_TqOz8uUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TqTscOUUEeu518O4MRMQJA" base_Element="_TqTFYOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_TqUTgOUUEeu518O4MRMQJA" base_Element="_TqTFYOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_TqUTgeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TqU6kOUUEeu518O4MRMQJA" base_Element="_TqUTguUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_TqU6keUUEeu518O4MRMQJA" base_Element="_TqUTguUUEeu518O4MRMQJA">
+    <annotations xmi:id="_TqU6kuUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TqYk8OUUEeu518O4MRMQJA" base_Element="_TqX94OUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_TqZMAOUUEeu518O4MRMQJA" base_Element="_TqX94OUUEeu518O4MRMQJA">
+    <annotations xmi:id="_TqZMAeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TqcPUOUUEeu518O4MRMQJA" base_Element="_TqboQOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_Tqc2YOUUEeu518O4MRMQJA" base_Element="_TqboQOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_Tqc2YeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TrG9sOUUEeu518O4MRMQJA" base_Element="_TrGWoOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TrIL0OUUEeu518O4MRMQJA" base_Element="_TrHkwOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_TrJZ8OUUEeu518O4MRMQJA" base_Element="_TrIy4OUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_TrRVwOUUEeu518O4MRMQJA" base_Element="_TrQHoOUUEeu518O4MRMQJA"/>
+</xmi:XMI>

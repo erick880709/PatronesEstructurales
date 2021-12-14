@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Zrpj0OUUEeu518O4MRMQJA" name="PatronesEstructurales">
+    <eAnnotations xmi:id="_Z5xfYOUUEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_Z5xfYeUUEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_Z5xfYuUUEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesEstructurales/src"/>
+        <details xmi:id="_aJ5mEOUUEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesEstructurales/src/composite/ElementoComposite.java;3103953348/1;/PatronesEstructurales/src/composite/ElementoDibujado.java;582886299/1;/PatronesEstructurales/src/composite/ElementoPrimitivo.java;2671993009/1;/PatronesEstructurales/src/composite/Main.java;2094981479/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_aD1aUOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2BYOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2BYeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2BYuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2BY-UUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2BZOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2BZeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2BZuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_aD2ocOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aD2oceUUEeu518O4MRMQJA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_aD2ocuUUEeu518O4MRMQJA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_aEtkEOUUEeu518O4MRMQJA" name="ArrayList"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_aD4doOUUEeu518O4MRMQJA" name="composite">
+      <packagedElement xmi:type="uml:Class" xmi:id="_aEBnkOUUEeu518O4MRMQJA" name="ElementoComposite">
+        <generalization xmi:id="_aEx1guUUEeu518O4MRMQJA" general="_aEIVQOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_aE5xUOUUEeu518O4MRMQJA" name="elementos" visibility="private" type="_aEtkEOUUEeu518O4MRMQJA" association="_aFC7QOUUEeu518O4MRMQJA">
+          <defaultValue xmi:type="uml:LiteralString" xmi:id="_aE6_ceUUEeu518O4MRMQJA" value="new ArrayList&lt;>()"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE9bsOUUEeu518O4MRMQJA" name="ElementoComposite" specification="_aEC1sOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE9bseUUEeu518O4MRMQJA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aE9bsuUUEeu518O4MRMQJA" type="_aEBnkOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>super(nombre);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE-CwOUUEeu518O4MRMQJA" name="agregar" specification="_aEuyMOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE-CweUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>elementos.add(elemento);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE-CwuUUEeu518O4MRMQJA" name="quitar" specification="_aEwnYOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE-Cw-UUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>elementos.remove(elemento);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE-p0OUUEeu518O4MRMQJA" name="mostrar" specification="_aEEq4OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE-p0eUUEeu518O4MRMQJA" name="indentacion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(indentarElemento(indentacion)+&quot; + &quot;+nombre);&#xD;
+     for (ElementoDibujado elemento : elementos) {&#xD;
+         elemento.mostrar(indentacion+2);&#xD;
+     }&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aEC1sOUUEeu518O4MRMQJA" name="ElementoComposite" method="_aE9bsOUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_aEDcwOUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aEDcweUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aEC1seUUEeu518O4MRMQJA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aEDcwuUUEeu518O4MRMQJA" type="_aEBnkOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aEEq4OUUEeu518O4MRMQJA" name="mostrar" method="_aE-p0OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aEEq4eUUEeu518O4MRMQJA" name="indentacion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aEuyMOUUEeu518O4MRMQJA" name="agregar" method="_aE-CwOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aEuyMeUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aEwnYOUUEeu518O4MRMQJA" name="quitar" method="_aE-CwuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aEwnYeUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aEIVQOUUEeu518O4MRMQJA" name="ElementoDibujado" isAbstract="true">
+        <ownedAttribute xmi:id="_aE8NkOUUEeu518O4MRMQJA" name="nombre" visibility="protected">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedAttribute>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE_Q4OUUEeu518O4MRMQJA" name="ElementoDibujado" specification="_aEJjYOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE_Q4eUUEeu518O4MRMQJA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aE_Q4uUUEeu518O4MRMQJA" type="_aEIVQOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.nombre = nombre;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE_Q4-UUEeu518O4MRMQJA" name="indentarElemento" specification="_aELYkOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE_Q5OUUEeu518O4MRMQJA" name="indentacion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aE_Q5eUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>String cad = &quot;&quot;;&#xD;
+     for (int i = 0; i &lt; indentacion; i++) {&#xD;
+         cad += &quot;-&quot;;&#xD;
+     }&#xD;
+     return cad;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aEJjYOUUEeu518O4MRMQJA" name="ElementoDibujado" method="_aE_Q4OUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_aEJjYuUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aEJjY-UUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aEJjYeUUEeu518O4MRMQJA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aEKKcOUUEeu518O4MRMQJA" type="_aEIVQOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aEKxgOUUEeu518O4MRMQJA" name="mostrar" isAbstract="true">
+          <ownedParameter xmi:id="_aEKxgeUUEeu518O4MRMQJA" name="indentacion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aELYkOUUEeu518O4MRMQJA" name="indentarElemento" method="_aE_Q4-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aELYkeUUEeu518O4MRMQJA" name="indentacion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aEL_oOUUEeu518O4MRMQJA" direction="return">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aEzDoOUUEeu518O4MRMQJA" name="agregar" isAbstract="true">
+          <ownedParameter xmi:id="_aEzqsOUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aEzqseUUEeu518O4MRMQJA" name="quitar" isAbstract="true">
+          <ownedParameter xmi:id="_aEzqsuUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aEN00OUUEeu518O4MRMQJA" name="ElementoPrimitivo">
+        <generalization xmi:id="_aE3VEuUUEeu518O4MRMQJA" general="_aEIVQOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE_38OUUEeu518O4MRMQJA" name="ElementoPrimitivo" specification="_aEPC8OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE_38eUUEeu518O4MRMQJA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aE_38uUUEeu518O4MRMQJA" type="_aEN00OUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>super(nombre);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE_38-UUEeu518O4MRMQJA" name="agregar" specification="_aE040OUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE_39OUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>System.out.println(&quot;No puedo agregar nada a un elemento primitivo&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aE_39eUUEeu518O4MRMQJA" name="quitar" specification="_aE2G8uUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE_39uUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+          <language>java</language>
+          <body>System.out.println(&quot;No puedo quitar nada a un elemento primitivo&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aFAfAOUUEeu518O4MRMQJA" name="mostrar" specification="_aEQREOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aFAfAeUUEeu518O4MRMQJA" name="indentacion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(indentarElemento(indentacion)+&quot; &quot;+nombre);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aEPC8OUUEeu518O4MRMQJA" name="ElementoPrimitivo" method="_aE_38OUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_aEPqAOUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_aEPqAeUUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_aEPC8eUUEeu518O4MRMQJA" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_aEPqAuUUEeu518O4MRMQJA" type="_aEN00OUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aEQREOUUEeu518O4MRMQJA" name="mostrar" method="_aFAfAOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aEQREeUUEeu518O4MRMQJA" name="indentacion">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aE040OUUEeu518O4MRMQJA" name="agregar" method="_aE_38-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE040eUUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+        </ownedOperation>
+        <ownedOperation xmi:id="_aE2G8uUUEeu518O4MRMQJA" name="quitar" method="_aE_39eUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aE2G8-UUEeu518O4MRMQJA" name="elemento" type="_aEIVQOUUEeu518O4MRMQJA"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_aEStUOUUEeu518O4MRMQJA" name="Main">
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_aFAfAuUUEeu518O4MRMQJA" name="main" specification="_aET7cOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aFAfA-UUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aFAfBOUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>ElementoComposite raiz = new ElementoComposite(&quot;Dibujo&quot;);&#xD;
+     raiz.agregar(new ElementoPrimitivo(&quot;Linea Roja&quot;));&#xD;
+     raiz.agregar(new ElementoPrimitivo(&quot;Círculo Azul&quot;));&#xD;
+     raiz.agregar(new ElementoPrimitivo(&quot;Cuadrado Verde&quot;));&#xD;
+     &#xD;
+     ElementoComposite rama = new ElementoComposite(&quot;2 Círculos&quot;);&#xD;
+     rama.agregar(new ElementoPrimitivo(&quot;Círculo Negro&quot;));&#xD;
+     rama.agregar(new ElementoPrimitivo(&quot;Círculo Amarillo&quot;));&#xD;
+     raiz.agregar(rama);&#xD;
+     &#xD;
+     ElementoPrimitivo eprim=new ElementoPrimitivo(&quot;Linea amarilla&quot;);&#xD;
+     raiz.agregar(eprim);&#xD;
+    // raiz.quitar(eprim);&#xD;
+     &#xD;
+     raiz.mostrar(1);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_aET7cOUUEeu518O4MRMQJA" name="main" isStatic="true" method="_aFAfAuUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_aET7ceUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aET7cuUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_aFC7QOUUEeu518O4MRMQJA" name="" memberEnd="_aFC7QeUUEeu518O4MRMQJA _aE5xUOUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_aFC7QeUUEeu518O4MRMQJA" name="" type="_aEBnkOUUEeu518O4MRMQJA" association="_aFC7QOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_Z-DicOUUEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_Z-DiceUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Z-DicuUUEeu518O4MRMQJA" base_Package="_Zrpj0OUUEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aEFR8OUUEeu518O4MRMQJA" base_Element="_aEEq4OUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aEF5AOUUEeu518O4MRMQJA" base_Element="_aEEq4OUUEeu518O4MRMQJA">
+    <annotations xmi:id="_aEF5AeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aEQ4IOUUEeu518O4MRMQJA" base_Element="_aEQREOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aERfMOUUEeu518O4MRMQJA" base_Element="_aEQREOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_aERfMeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_aEuLIOUUEeu518O4MRMQJA" base_Element="_aEtkEOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aEvZQOUUEeu518O4MRMQJA" base_Element="_aEuyMOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aEwAUOUUEeu518O4MRMQJA" base_Element="_aEuyMOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_aEwAUeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aExOcOUUEeu518O4MRMQJA" base_Element="_aEwnYOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aEx1gOUUEeu518O4MRMQJA" base_Element="_aEwnYOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_aEx1geUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aE1f4OUUEeu518O4MRMQJA" base_Element="_aE040OUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aE2G8OUUEeu518O4MRMQJA" base_Element="_aE040OUUEeu518O4MRMQJA">
+    <annotations xmi:id="_aE2G8eUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aE2uAOUUEeu518O4MRMQJA" base_Element="_aE2G8uUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_aE3VEOUUEeu518O4MRMQJA" base_Element="_aE2G8uUUEeu518O4MRMQJA">
+    <annotations xmi:id="_aE3VEeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Generics xmi:id="_aE6_cOUUEeu518O4MRMQJA" genericsValue="ElementoDibujado" base_Element="_aE5xUOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aE7mgOUUEeu518O4MRMQJA" base_Element="_aE5xUOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_aE80oOUUEeu518O4MRMQJA" base_Element="_aE8NkOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_aFEJYOUUEeu518O4MRMQJA" base_Element="_aFC7QOUUEeu518O4MRMQJA"/>
+</xmi:XMI>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_mOy7UOUUEeu518O4MRMQJA" name="PatronesEstructurales">
+    <eAnnotations xmi:id="_mgzRUOUUEeu518O4MRMQJA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_mgzRUeUUEeu518O4MRMQJA" source="codegen">
+        <details xmi:id="_mgzRUuUUEeu518O4MRMQJA" key="codegenDirectory" value="/PatronesEstructurales/src"/>
+        <details xmi:id="_mvjfAOUUEeu518O4MRMQJA" key="AssociatedSourceCode" value="/PatronesEstructurales/src/facade/Acelerador.java;2308664152/1;/PatronesEstructurales/src/facade/Clutch.java;3548270421/1;/PatronesEstructurales/src/facade/Facade.java;740490495/1;/PatronesEstructurales/src/facade/IAcelerador.java;3655461001/1;/PatronesEstructurales/src/facade/IClutch.java;1428791401/1;/PatronesEstructurales/src/facade/IPalancaCambios.java;3775115206/1;/PatronesEstructurales/src/facade/MainConFacade.java;2555634207/1;/PatronesEstructurales/src/facade/MainSinFacade.java;3200146142/1;/PatronesEstructurales/src/facade/PalancaCambios.java;3164148002/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_mpDOYOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_mpDOYeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_mpDOYuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_mpDOY-UUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_mpDOZOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_mpDOZeUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_mpD1cOUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_mpD1ceUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_mpD1cuUUEeu518O4MRMQJA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_mpEcgOUUEeu518O4MRMQJA" name="facade">
+      <packagedElement xmi:type="uml:Class" xmi:id="_mpSe8OUUEeu518O4MRMQJA" name="Acelerador">
+        <ownedComment xmi:id="_mqKosOUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_mp_CgOUUEeu518O4MRMQJA" client="_mpSe8OUUEeu518O4MRMQJA" supplier="_mpc3AOUUEeu518O4MRMQJA" contract="_mpc3AOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqHlYeUUEeu518O4MRMQJA" name="presionarAcelerador" specification="_mpTGAOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Acelerador Presionado&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqIMcOUUEeu518O4MRMQJA" name="soltarAcelerador" specification="_mpUUIuUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Acelerador Suelto&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mpTGAOUUEeu518O4MRMQJA" name="presionarAcelerador" method="_mqHlYeUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_mpUUIuUUEeu518O4MRMQJA" name="soltarAcelerador" method="_mqIMcOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mpWJUOUUEeu518O4MRMQJA" name="Clutch">
+        <ownedComment xmi:id="_mqKoseUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <interfaceRealization xmi:id="_mp_pkOUUEeu518O4MRMQJA" client="_mpWJUOUUEeu518O4MRMQJA" supplier="_mpeFIOUUEeu518O4MRMQJA" contract="_mpeFIOUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqIMceUUEeu518O4MRMQJA" name="presionarClutch" specification="_mpWwYOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Clutch Presionado&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqIMcuUUEeu518O4MRMQJA" name="soltarClutch" specification="_mpX-guUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Clutch Suelto&quot;);&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mpWwYOUUEeu518O4MRMQJA" name="presionarClutch" method="_mqIMceUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_mpX-guUUEeu518O4MRMQJA" name="soltarClutch" method="_mqIMcuUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mpZMoOUUEeu518O4MRMQJA" name="Facade">
+        <ownedComment xmi:id="_mqKosuUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_mqD7AOUUEeu518O4MRMQJA" name="clutch" visibility="private" type="_mpeFIOUUEeu518O4MRMQJA" association="_mqMd4OUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_mqEiEOUUEeu518O4MRMQJA" name="acelerador" visibility="private" type="_mpc3AOUUEeu518O4MRMQJA" association="_mqNsAOUUEeu518O4MRMQJA"/>
+        <ownedAttribute xmi:id="_mqFJIeUUEeu518O4MRMQJA" name="palancaCambios" visibility="private" type="_mpesMeUUEeu518O4MRMQJA" association="_mqOTEeUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqIzgOUUEeu518O4MRMQJA" name="Facade" specification="_mqA3sOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_mqIzgeUUEeu518O4MRMQJA" name="clutch" type="_mpeFIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_mqIzguUUEeu518O4MRMQJA" name="acelerador" type="_mpc3AOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_mqIzg-UUEeu518O4MRMQJA" name="palancaCambios" type="_mpesMeUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_mqIzhOUUEeu518O4MRMQJA" type="_mpZMoOUUEeu518O4MRMQJA" direction="return"/>
+          <language>java</language>
+          <body>this.clutch = clutch;&#xD;
+     this.acelerador = acelerador;&#xD;
+     this.palancaCambios = palancaCambios;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqIzheUUEeu518O4MRMQJA" name="aumentarVelocidad" specification="_mpaawOUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>acelerador.soltarAcelerador();&#xD;
+     clutch.presionarClutch();&#xD;
+     palancaCambios.puntoMuerto();&#xD;
+     if(palancaCambios.getVelocidadActual()&lt;5){&#xD;
+         palancaCambios.aumentarVelocidad(palancaCambios.getVelocidadActual()+1);&#xD;
+     }&#xD;
+     clutch.soltarClutch();&#xD;
+     acelerador.presionarAcelerador();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqIzhuUUEeu518O4MRMQJA" name="disminuirVelocidad" specification="_mpbB0OUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>acelerador.soltarAcelerador();&#xD;
+     clutch.presionarClutch();&#xD;
+     palancaCambios.puntoMuerto();&#xD;
+     if(palancaCambios.getVelocidadActual()>1){&#xD;
+         palancaCambios.aumentarVelocidad(palancaCambios.getVelocidadActual()-1);&#xD;
+     }&#xD;
+     clutch.soltarClutch();&#xD;
+     acelerador.presionarAcelerador();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mpaawOUUEeu518O4MRMQJA" name="aumentarVelocidad" method="_mqIzheUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_mpbB0OUUEeu518O4MRMQJA" name="disminuirVelocidad" method="_mqIzhuUUEeu518O4MRMQJA"/>
+        <ownedOperation xmi:id="_mqA3sOUUEeu518O4MRMQJA" name="Facade" method="_mqIzgOUUEeu518O4MRMQJA">
+          <eAnnotations xmi:id="_mqBewuUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+            <details xmi:id="_mqBew-UUEeu518O4MRMQJA" key="create"/>
+          </eAnnotations>
+          <ownedParameter xmi:id="_mqA3seUUEeu518O4MRMQJA" name="clutch" type="_mpeFIOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_mqBewOUUEeu518O4MRMQJA" name="acelerador" type="_mpc3AOUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_mqBeweUUEeu518O4MRMQJA" name="palancaCambios" type="_mpesMeUUEeu518O4MRMQJA"/>
+          <ownedParameter xmi:id="_mqBexOUUEeu518O4MRMQJA" type="_mpZMoOUUEeu518O4MRMQJA" direction="return"/>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_mpc3AOUUEeu518O4MRMQJA" name="IAcelerador">
+        <ownedComment xmi:id="_mqKos-UUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_mpdeEOUUEeu518O4MRMQJA" name="presionarAcelerador"/>
+        <ownedOperation xmi:id="_mpdeEeUUEeu518O4MRMQJA" name="soltarAcelerador"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_mpeFIOUUEeu518O4MRMQJA" name="IClutch">
+        <ownedComment xmi:id="_mqKotOUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedOperation xmi:id="_mpeFIeUUEeu518O4MRMQJA" name="presionarClutch"/>
+        <ownedOperation xmi:id="_mpesMOUUEeu518O4MRMQJA" name="soltarClutch"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Interface" xmi:id="_mpesMeUUEeu518O4MRMQJA" name="IPalancaCambios">
+        <ownedComment xmi:id="_mqKoteUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_mpf6UeUUEeu518O4MRMQJA" name="velocidadActual" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <ownedOperation xmi:id="_mpfTQOUUEeu518O4MRMQJA" name="aumentarVelocidad">
+          <ownedParameter xmi:id="_mpfTQeUUEeu518O4MRMQJA" name="velocidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mpf6UOUUEeu518O4MRMQJA" name="puntoMuerto"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mpf6UuUUEeu518O4MRMQJA" name="MainConFacade">
+        <ownedComment xmi:id="_mqLPwOUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqJakOUUEeu518O4MRMQJA" name="main" specification="_mpghYOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_mqJakeUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mqJakuUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IAcelerador acelerador = new Acelerador();&#xD;
+     IClutch clutch = new Clutch();&#xD;
+     IPalancaCambios palancaCambios = new PalancaCambios();&#xD;
+     Facade facade = new Facade(clutch, acelerador, palancaCambios);&#xD;
+     facade.aumentarVelocidad();&#xD;
+     facade.aumentarVelocidad();&#xD;
+     facade.disminuirVelocidad();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mpghYOUUEeu518O4MRMQJA" name="main" isStatic="true" method="_mqJakOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_mpghYeUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mphIcOUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mphIceUUEeu518O4MRMQJA" name="MainSinFacade">
+        <ownedComment xmi:id="_mqLPweUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqJak-UUEeu518O4MRMQJA" name="main" specification="_mphvgOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_mqJalOUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mqJaleUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>IAcelerador acelerador = new Acelerador();&#xD;
+     IClutch clutch = new Clutch();&#xD;
+     IPalancaCambios palancaCambios = new PalancaCambios();&#xD;
+&#xD;
+     acelerador.soltarAcelerador();&#xD;
+     clutch.presionarClutch();&#xD;
+     palancaCambios.puntoMuerto();&#xD;
+     palancaCambios.aumentarVelocidad(3);&#xD;
+     clutch.soltarClutch();&#xD;
+     acelerador.presionarAcelerador();&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mphvgOUUEeu518O4MRMQJA" name="main" isStatic="true" method="_mqJak-UUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_mphvgeUUEeu518O4MRMQJA" name="args">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_mphvguUUEeu518O4MRMQJA" value="*"/>
+          </ownedParameter>
+        </ownedOperation>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Class" xmi:id="_mpiWkOUUEeu518O4MRMQJA" name="PalancaCambios">
+        <ownedComment xmi:id="_mqLPwuUUEeu518O4MRMQJA">
+          <body>*&#xD;
+@author jvelez</body>
+        </ownedComment>
+        <ownedAttribute xmi:id="_mqFwMOUUEeu518O4MRMQJA" name="velocidadActual" isReadOnly="true">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedAttribute>
+        <interfaceRealization xmi:id="_mqCF0OUUEeu518O4MRMQJA" client="_mpiWkOUUEeu518O4MRMQJA" supplier="_mpesMeUUEeu518O4MRMQJA" contract="_mpesMeUUEeu518O4MRMQJA"/>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqKBoeUUEeu518O4MRMQJA" name="aumentarVelocidad" specification="_mpi9oOUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_mqKBouUUEeu518O4MRMQJA" name="velocidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <language>java</language>
+          <body>System.out.println(&quot;Aumentando velocidad &quot;+velocidad);&#xD;
+     this.velocidadActual=velocidad;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_mqKBo-UUEeu518O4MRMQJA" name="puntoMuerto" specification="_mpkLwuUUEeu518O4MRMQJA">
+          <language>java</language>
+          <body>System.out.println(&quot;Desacelerando en punto muerto &quot;+velocidadActual);&#xD;
+     this.velocidadActual=0;&#xD;
+ </body>
+        </ownedBehavior>
+        <ownedOperation xmi:id="_mpi9oOUUEeu518O4MRMQJA" name="aumentarVelocidad" method="_mqKBoeUUEeu518O4MRMQJA">
+          <ownedParameter xmi:id="_mpi9oeUUEeu518O4MRMQJA" name="velocidad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+        </ownedOperation>
+        <ownedOperation xmi:id="_mpkLwuUUEeu518O4MRMQJA" name="puntoMuerto" method="_mqKBo-UUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mqMd4OUUEeu518O4MRMQJA" name="" memberEnd="_mqMd4eUUEeu518O4MRMQJA _mqD7AOUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_mqMd4eUUEeu518O4MRMQJA" name="" type="_mpZMoOUUEeu518O4MRMQJA" association="_mqMd4OUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mqNsAOUUEeu518O4MRMQJA" name="" memberEnd="_mqNsAeUUEeu518O4MRMQJA _mqEiEOUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_mqNsAeUUEeu518O4MRMQJA" name="" type="_mpZMoOUUEeu518O4MRMQJA" association="_mqNsAOUUEeu518O4MRMQJA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_mqOTEeUUEeu518O4MRMQJA" name="" memberEnd="_mqOTEuUUEeu518O4MRMQJA _mqFJIeUUEeu518O4MRMQJA">
+        <ownedEnd xmi:id="_mqOTEuUUEeu518O4MRMQJA" name="" type="_mpZMoOUUEeu518O4MRMQJA" association="_mqOTEeUUEeu518O4MRMQJA"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_mjc8sOUUEeu518O4MRMQJA">
+      <eAnnotations xmi:id="_mjc8seUUEeu518O4MRMQJA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_mjdjwOUUEeu518O4MRMQJA" base_Package="_mOy7UOUUEeu518O4MRMQJA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpTtEOUUEeu518O4MRMQJA" base_Element="_mpTGAOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_mpUUIOUUEeu518O4MRMQJA" base_Element="_mpTGAOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_mpUUIeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpU7MOUUEeu518O4MRMQJA" base_Element="_mpUUIuUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_mpViQOUUEeu518O4MRMQJA" base_Element="_mpUUIuUUEeu518O4MRMQJA">
+    <annotations xmi:id="_mpViQeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpXXcOUUEeu518O4MRMQJA" base_Element="_mpWwYOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_mpX-gOUUEeu518O4MRMQJA" base_Element="_mpWwYOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_mpX-geUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpX-g-UUEeu518O4MRMQJA" base_Element="_mpX-guUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_mpYlkOUUEeu518O4MRMQJA" base_Element="_mpX-guUUEeu518O4MRMQJA">
+    <annotations xmi:id="_mpYlkeUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpjksOUUEeu518O4MRMQJA" base_Element="_mpi9oOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_mpkLwOUUEeu518O4MRMQJA" base_Element="_mpi9oOUUEeu518O4MRMQJA">
+    <annotations xmi:id="_mpkLweUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mpky0OUUEeu518O4MRMQJA" base_Element="_mpkLwuUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Annotations xmi:id="_mpky0eUUEeu518O4MRMQJA" base_Element="_mpkLwuUUEeu518O4MRMQJA">
+    <annotations xmi:id="_mpky0uUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mqD7AeUUEeu518O4MRMQJA" base_Element="_mqD7AOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mqFJIOUUEeu518O4MRMQJA" base_Element="_mqEiEOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mqFJIuUUEeu518O4MRMQJA" base_Element="_mqFJIeUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_mqGXQOUUEeu518O4MRMQJA" base_Element="_mqFwMOUUEeu518O4MRMQJA">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_mqGXQeUUEeu518O4MRMQJA" name="getVelocidadActual" method="_mqJaluUUEeu518O4MRMQJA">
+      <ownedParameter xmi:id="_mqG-UOUUEeu518O4MRMQJA" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:Annotations xmi:id="_mqG-UeUUEeu518O4MRMQJA" base_Element="_mqGXQeUUEeu518O4MRMQJA">
+    <annotations xmi:id="_mqHlYOUUEeu518O4MRMQJA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <uml:OpaqueBehavior xmi:id="_mqJaluUUEeu518O4MRMQJA" name="getVelocidadActual" specification="_mqGXQeUUEeu518O4MRMQJA">
+    <ownedParameter xmi:id="_mqKBoOUUEeu518O4MRMQJA" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.velocidadActual;&#xD;
+ </body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_mqNE8OUUEeu518O4MRMQJA" base_Element="_mqMd4OUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_mqOTEOUUEeu518O4MRMQJA" base_Element="_mqNsAOUUEeu518O4MRMQJA"/>
+  <UMLLabProfile:Reference xmi:id="_mqO6IOUUEeu518O4MRMQJA" base_Element="_mqOTEeUUEeu518O4MRMQJA"/>
+</xmi:XMI>
